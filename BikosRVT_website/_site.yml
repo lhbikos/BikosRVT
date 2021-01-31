@@ -1,0 +1,31 @@
+name: "BikosRVT Website"
+navbar:
+  title: "BikosRVT"
+  left:
+    - text: "Expectations"
+      href: Expectations.html
+    - text: "Vocational"
+      href: Vocational.html
+    - text: "Global"
+      href: Global.html
+    - text: "Sustainable"
+      href: Global.html
+
+# from  https://github.com/jules32/rmarkdown-website-tutorial
+#name: "R Markdown Websites Tutorial"
+#navbar:
+  #title: "HOME"
+  #left:
+   # - text: "First Observations"
+    #  href: first_observations.html
+    #- text: "Basic Workflow"
+      #href: basic_workflow.html
+    #- text: "Getting Sophisticated"
+      #href: getting_sophisticated.html
+    #- text: "Your Turn"
+      #href: your_turn.html
+#output_dir: "."
+#output:
+  #html_document:
+    #theme: yeti
+    #highlight: textmate     
