@@ -1,4 +1,5 @@
 name: "BikosRVT Website"
+output_dir: "docs"
 navbar:
   title: "BikosRVT"
   left:
@@ -8,9 +9,10 @@ navbar:
       href: Vocational.html
     - text: "Global"
       href: Global.html
-    - text: "Sustainable"
-      href: Global.html
-
+    #- text: "Sustainable"
+      #href: Global.html
+   
+    
 # from  https://github.com/jules32/rmarkdown-website-tutorial
 #name: "R Markdown Websites Tutorial"
 #navbar:
