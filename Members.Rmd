@@ -1,0 +1,104 @@
+---
+title: "RVT MEMBERS"
+output: 
+   html_document:
+     fig_width: 1
+     toc: true
+     toc_float: true
+     toc_depth: 3
+     theme: sandstone
+     highlight: tango
+
+bibliography: websiteRVT.bib
+citation-style: apa-single-spaced.csl
+link-citations: true
+---
+<br>
+
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+# Faculty Advisor:  Lynette H. Bikos, PhD, ABPP 
+</div>
+<br>
+
+Education: BA, University of Missouri-Columbia, 1987; MA, University of Missouri-Columbia, 1989; PhD, University of Kansas-Lawrence, 1996. At SPU since 2005.
+
+<div class = "row">
+<div class = "col-md-8">
+<br><br>
+Dr. Lynette Bikos (pronounced "bike-us") teaches statistics, research methods, and psychometrics courses in the Clinical and Industrial-Organizational Psychology doctoral programs at Seattle Pacific University. She is a licensed psychologist in Washington and Kansas and Board Certified in Counseling Psychology.  Her expertise falls at the intersections of vocational, global, and sustainable psychology. <br>
+
+Dr. Bikos’ first love is career development.  At SPU Dr. Bikos engaged in both the science and practice of vocational psychology by providing clinical supervision for the Graduate Career Advisors at SPU’s Center for Center for Career and Calling and in their work as facilitators for *CALLED!  SPU’s Online Field Guide* (OFG; Canvas edition).  Dr. Bikos is the Principal Investigator of a random clinical trial evaluating differences between three versions of the OFG – particularly looking to see if the calling-infused version contributes to vocational outcomes over-and-above adjustment-to-college and traditional-career-planning versions. <br>
+
+Dr. Bikos is particularly interested in understanding how individuals respond to change -- plotting longitudinal growth trajectories examining the simultaneous effects of individual and contextual factors.  Significant research projects have explored global learning outcomes in returnees from study abroad, first year adaptation of expatriate spouses, and career development in response to the OFG.  During the COVID-19 pandemic, she is investigating experiences of and attitudes toward making(sewing) and wearing cloth facemasks.  Whether in a videoconference or around a table, planning, implementing, analyzing, and discovering with her advisees is one of her greatest joys. <br>
+
+</div>
+
+<div class = "col-md-4">
+![*Image of Dr. Bikos professional profile photo*.](lhbikos_profile.jpg){#id .class width=500}
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-md-8">
+<br>
+In the larger profession of psychology, Dr. Bikos presently serves on the editorial boards of the *Journal of Vocational Behavior*, *Career Development Quarterly*, and *International Perspectives in Psychology:  Research, Practice, Consultation*; and has previously served on the *Journal of Counseling Psychology* and *Journal of Career Development* editorial boards.  She is a Fellow in both the American Psychological Association (Division 52/International Psychology) and the Western Psychological Association. She is currently holding a 3-year term (2019-2021) as Vice President for Engagement in APA’s Division 52/International Psychology.
+
+Dr. Bikos’ commitment to global begins at home. Her family has hosted more than a dozen exchange students (and teachers). She is an avid bicycle commuter, accruing over 2,000 miles annually in her trek to-and-from campus. She also spends a fair amount of time experimenting the kitchen – particularly with international recipes and ingredients.
+
+Additional profiles are provided on the [faculty profile](https://spu.edu/academics/school-of-psychology-family-community/faculty-and-staff/lynette-bikos-profile) at Seattle Pacific University and at [LinkedIn](https://www.linkedin.com/in/lhbikos/)
+<br>
+
+</div>
+
+<div class = "col-md-4">
+![*Image of the Dr. Bikos on a tandem bicycle ride with her oldest child*.](tandem.jpg){#id .class width=500}
+<br>
+
+</div>
+</div>
+
+
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+# Current RVT Members
+</div>
+<br>
+
+<div class = "row">
+
+<div class = "col-md-4">
+![*Image of the Clara(Thea) on a beach*.](thea.png){#id .class width=500}
+</div>
+
+<div class = "col-md-8">
+Clara (Thea) O’Brien (~ '26) is originally from Western Washington and moved to Seattle to pursue her doctoral degree in clinical psychology at SPU. She earned her BA in psychology from Pacific Lutheran University in 2015, where she conducted qualitative and quantitative research on children’s trust in adult testimony of healthfulness of foods. She has since spent time working in higher education as an academic coordinator at the University of Idaho before spending time in Europe travelling and volunteering in refugee aid. This is where she developed a passion for crisis care and acute interventions. She then went on to work in outpatient mental health serving adults suffering from SMI for three and a half years. This sparked her desire to pursue a higher degree in clinical psychology. She is interested in trauma work and acute care as it relates to underserved populations. For her Mentored Research Project she is studying the effects of affect and stigma on Mask-Wearing behaviors during the COVID-19 pandemic. These are being examined in the context of COVID-19 infection rates as well as geopolitical context. She works as a Graduate Career Advisor in the Center for Career and Calling at SPU assisting undergraduate students in their career goals. In her free time, she enjoys drinking tea, listening to vinyl records, and backpacking. Pre-pandemic she is an avid concert and museum attender.
+
+</div>
+</div>
+
+<div class = "row">
+
+<div class = "col-md-8">
+
+Beth Larson (she/her/hers; ~'22) was born and raised in Montana. She graduated with a BS from the University of Montana (2014), earning degrees in both Psychology and Communicative Sciences and Disorders, and graduated from Montana State University (2017) with an MS in Psychological Science (experimental psychology emphasis). She then moved to Seattle to pursue her doctoral degree at SPU (CPY) where she earned her MS in Psychological Science (2019). Beth ultimately chose SPU’s clinical psychology doctoral program because of its strong emphasis of both scientific research and clinical practice and because of its warm and supportive collegial environment. During her time at SPU, Beth has completed practicums at SPU’s Student Counseling Center (2018), Monroe Correctional Complex (2019), Tedd Judd’s Multicultural Practicum (2020), and UW Department of Neurology (2020). In the RVT, Beth has served as lead OFG analyst and as an OFG interventionist. Her dissertation explores the relationship between romantic attachment orientation, marital expectations, and trait mindfulness. In her free time, Beth enjoys hiking/urban walks, reading, and trying out new restaurants/coffee shops in the Seattle area.  
+
+</div>
+
+<div class = "col-md-4">
+![*Image of Beth Larson in a snowy forest*.](beth.jpg){#id .class width=500}
+</div>
+</div>
+
+
+
+
+
+
+
+
+

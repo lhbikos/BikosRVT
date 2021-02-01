@@ -3,19 +3,22 @@
     "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/RVT/BikosRVT/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "3539819972",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1612108929039.0,
     "source_on_save": false,
     "relative_order": 2,
-    "properties": {},
+    "properties": {
+        "cursorPosition": "28,0",
+        "scrollLine": "15"
+    },
     "folds": "",
-    "lastKnownWriteTime": 1612072051,
+    "lastKnownWriteTime": 1612124356,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1612072051,
+    "last_content_update": 1612124356238,
     "read_only": false,
     "read_only_alternatives": []
 }
