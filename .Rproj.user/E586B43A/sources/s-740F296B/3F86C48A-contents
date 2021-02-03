@@ -12,7 +12,8 @@ bibliography: websiteRVT.bib
 citation-style: apa-single-spaced.csl
 link-citations: true
 ---
-<br><br>
+<span style="color: #651D32;"><em>Click to listen to a screencasted [discussion](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8ebf1a26-498e-4012-a63c-acbf0051dbf2&id=40f3d51e-9565-47ce-b836-acc000257010&advance=true) about the Online Field Guide and Graduate Career Advisor roles.</em></span></p>
+
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>

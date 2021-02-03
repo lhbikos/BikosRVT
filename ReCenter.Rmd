@@ -13,7 +13,9 @@ bibliography: websiteRVT.bib
 citation-style: apa-single-spaced.csl
 link-citations: true
 ---
-<br>
+
+<span style="color: #651D32;"><em>Click to listen to a screencasted [discussion](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8ebf1a26-498e-4012-a63c-acbf0051dbf2&id=afff394a-74d5-4fd3-9829-acbe01395a74&advance=true) about the *ReCentering Psych Stats* research project as well as teaching and technology.</em></span></p>
+
 
 My (this is Lynette Bikos) participation in the [Academics for Black Survival and Wellness](https://www.academics4blacklives.com/) initiative served as a clarion call for addressing systematic racism in the academy.  Throughout the initiative, A4FL presenters described the problem of *centering whiteness.*  
 
