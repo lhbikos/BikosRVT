@@ -3,22 +3,22 @@
     "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/RVT/BikosRVT/Fun.Rmd",
     "project_path": "Fun.Rmd",
     "type": "r_markdown",
-    "hash": "1967151070",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1612153670381.0,
     "source_on_save": false,
     "relative_order": 9,
     "properties": {
-        "cursorPosition": "86,0",
-        "scrollLine": "69"
+        "cursorPosition": "188,0",
+        "scrollLine": "167"
     },
     "folds": "",
-    "lastKnownWriteTime": 1612412734,
+    "lastKnownWriteTime": 1612414055,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1612412734100,
+    "last_content_update": 1612414055766,
     "read_only": false,
     "read_only_alternatives": []
 }
