@@ -84,6 +84,7 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 
 <div class = "row">
 <div class = "col-md-8">
+
 **Ashley Righetti** (she/her, ~'26) is from Washington State and completed her bachelor’s degree at the University of Washington Tacoma prior to attending Seattle Pacific University to pursue a PhD in Clinical Psychology. During her undergraduate career, Ashley researched students’ self-care practices in relation to academic achievement while looking at facets of psychological well-being as mediating factors. Upon graduating, she stepped away from school in order to consider other pursuits, which is where she developed a new-found interest in aspects of vocational psychology. In particular, she is hoping to eventually investigate the work environment, self-care practices, and how individual’s psychological health is affected. Ashley’s MRP project is focused on mask-wearing in relation to affect while taking into account geopolitical context and COVID-19 practices. When Ashley is not in class or doing schoolwork, she is usually at the gym training in weightlifting. Her goal in the sport is to eventually qualify for the North American Open Finals while also being a full-time student. 
 </div>
 
@@ -94,7 +95,17 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 
 <br>
 
+<div class = "row">
+<div class = "col-md-4">
+![*Image of the Jaylee seated in front of a hydrangea next to a brick building*.](images/members/jaylee.jpg){#id .class width=500}
+</div>
+<div class = "col-md-8">
 **Jaylee York** (she/her, ~'26) is originally from Southwestern Kansas, and moved to Seattle to attend graduate school at SPU. She received her Bachelor of Science in Psychology and in Criminology with an emphasis in Conflict Resolution and Trauma Studies at Kansas State University. While at Kansas State, Jaylee was heavily involved in research both in Behavioral Neuropsychology and Social Psychology. During her time as an undergraduate student, Jaylee researched racial and gender prejudice and discrimination, with her largest project being the development of a psychometric tool measuring the recognition of privilege within feminism. Following her undergraduate studies, she worked as a Research Team Lead at Kansas State University in the Memory and Cognition lab. While in graduate school, Jaylee aims to continue to work on the development of psychometric tools, the development of trauma disorders in diverse populations, and work broadly in community mental health. Her current projects include researching stigma and mask usage during the COVID-19 pandemic, longitudinal work with the King County Sexual Assault Resource Center, and the CE program. Outside of school, Jaylee enjoys camping with her partner and their dog, travelling, cooking, and exploring all that Seattle has to offer.
+
+</div>
+</div>
+
+<br>
 
 <div class = "row">
 <div class = "col-md-4">
