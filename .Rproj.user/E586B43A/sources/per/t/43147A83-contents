@@ -50,9 +50,11 @@ psych::alpha(Y1FL_df[FLpr_key])
 ```
 
 # As Factor:
-
 ```{r}
-Dat$cat_1to4 <- factor(Dat$cat_1to4)
+as.numeric(as.character(soap_cost)) 
+
+#from integer to factor; other methods didn't work
+df[,'var'] <- as.factor(df[,'var'])
 ```
 
 # As Numeric:  apply to entire df
@@ -87,6 +89,16 @@ df <- df %>% mutate(ID = row_number())
 df <- df%>%select(ID, everything())
 ```
 
+#Bookdown
+
+ReC bookchapter instructions:
+
+* Create Project
+* New Directory
+* Book Project Using Bookdown
+* follow instructions, but create the folder structure where you want it
+* Copied over yml matter and updated for the specific volume
+* Change _bookdown.yml to include the output_dire: "docs" statement at the end
 
 
 #Chunk Options
@@ -243,6 +255,11 @@ library(psych)
 psych::describeBy(df, df$grouping_var, mat=TRUE)
 ```
 
+```{r Create new variable, counting across multiple variables on multiple categories}
+scrub_df$count.nW <- apply(scrub_df[c("tRace1", "tRace2", "tRace3", "tRace4", "tRace5", "tRace6", "tRace7", "tRace8", "tRace9", "tRace10")], 1, function(x) sum(x %in% c("Black", "nBpoc", "BiMulti")))
+```
+
+
 #Github and Github Pages
 Here are instructions for getting bookdown from Github to Github Pages.  Biggest tricks:
 
@@ -350,6 +367,9 @@ df <- df[!row.names(df) %in% row.names(subset_df),]
 
 #deleting a specified case on the single value of RecipientEmail
 df <- df[!df$RecipientEmail == "NAME@spu.edu",]
+
+#a tidyverse way to do the same
+df <- filter (df, variable != "some_value")
 ```
 
 Filtering in specific case
@@ -379,6 +399,17 @@ states_df <- states_df%>%
 df[df$var1 == 0 & df$var2 !=0, "var1"]<- 0.5
 Y1L[Y1L$Submissions == 0 & Y1L$PgViews !=0, "Submissions"]<- 0.5
 ```
+
+# Histogram
+
+Remember:  psych::pairs.panels also provides a histogram with the normal curve superimposed -- much easier (and smaller)
+
+```{r histogram, superimposing a normal curve}
+hist(item_scores_df$iBIPOC_pr, freq = FALSE)
+curve(dnorm(x, mean = .44, sd = .4), add = TRUE, col = "blue") #M and SD should be updated manually
+```
+
+
 
 # Hyperlink
 From Danielle Navarro's [Learning Statistics with R](https://learningstatisticswithr.com/)  
@@ -413,6 +444,31 @@ states_df <- states_df %>%
   mutate(PARTY = recode(STATE, "CALIFORNIA" = "DEMOCRATIC", "COLORADO" = "DEMOCRATIC", "CONNECTICUT"= "DEMOCRATIC", "DELEWARE"= "DEMOCRATIC", "HAWAII"= "DEMOCRATIC","ILLINOIS"= "DEMOCRATIC","MAINE"= "DEMOCRATIC", "MARYLAND"= "DEMOCRATIC", "MASSACHUSETTS"= "DEMOCRATIC", "MINNESOTA"= "DEMOCRATIC", "NEVADA"= "DEMOCRATIC", "NEW_HAMPSHIRE"= "DEMOCRATIC", "NEW_JERSEY"= "DEMOCRATIC", "NEW_MEXICO"= "DEMOCRATIC", "NEW_YORK"= "DEMOCRATIC", "OREGON"= "DEMOCRATIC", "RHODE_ISLAND"= "DEMOCRATIC", "VERMONT"= "DEMOCRATIC", "VIRGINIA"= "DEMOCRATIC", "WASHINGTON"= "DEMOCRATIC", "ALABAMA" ="REPUBLICAN", "ALASKA"="REPUBLICAN", "ARIZONA"="REPUBLICAN", "ARKANSAS"="REPUBLICAN", "FLORIDA"="REPUBLICAN", "GEORGIA"="REPUBLICAN", "IDAHO"="REPUBLICAN", "INDIANA"="REPUBLICAN", "IOWA"="REPUBLICAN", "KANSAS"="REPUBLICAN", "KENTUCKY"="REPUBLICAN", "LOUISIANA"="REPUBLICAN", "MICHIGAN"="REPUBLICAN", "MISSISSIPPI"="REPUBLICAN", "MISSOURI"="REPUBLICAN", "MONTANA"="REPUBLICAN", "NEBRASKA"="REPUBLICAN", "NORTH_CAROLINA"="REPUBLICAN", "NORTH_DAKOTA"="REPUBLICAN", "OHIO"="REPUBLICAN", "OKLAHOMA"="REPUBLICAN", "PENNSYLVANIA"="REPUBLICAN", "SOUTH_CAROLINA"="REPUBLICAN", "SOUTH_DAKOTA"="REPUBLICAN", "TENNESSEE"="REPUBLICAN", "TEXAS"="REPUBLICAN", "UTAH"="REPUBLICAN", "WEST_VIRGINIA"="REPUBLICAN", "WISCONSIN"="REPUBLICAN", "WYOMING"="REPUBLICAN"))
 ```
 
+
+# Inline text
+
+Helpful:  https://cran.r-project.org/web/packages/gtsummary/vignettes/inline_text.html
+
+Basically, use the tick, r, and then reference the object.  
+`r attempts`
+
+In complicated objects, you may need to identify levels of the name, imbedded in teh object:
+`r Stigma_alpha$total$raw_alpha)`
+
+HOWEVER, with the package *formattable* you can add functions (like digits for decimal) to format the object being printed.
+`r digits(Stigma_alpha$total$raw_alpha, 3)`
+
+HOWEVER HOWEVER, I'm finding it easier to extract-and-display (but then hide from rendering) objects with short names in the code, then use the short names in the inline text.  This means that apply formattable to the script that creates the object with the short name.  This lets me check the code and also use short names in the inline text -- fewer errors (most of the time).  Here's an example:
+
+```{r Coefficients and p values for inline text, echo = FALSE, results ='hide'}
+library(formattable)
+Bel_B <- digits(Climate_fit$coefficients[2],3) #the beta weight for Belonging
+Bel_p <- digits(summary(Climate_fit)$coefficients[2,4],3) #the p value for Belonging
+Bel_B
+Bel_p
+```
+
+Results of a multiple regression predicting the respondents' perceptions of campus climate for Black students indicated that neither contributions of the respondents' personal belonging ($B$ = `r Bel_B`, $p$ = `r Bel_p`)...
 
 # Insert spreadsheet
 ```{r import spreadsheet}
@@ -505,8 +561,11 @@ mean(complete.cases(df)) #percent of rows with nonmissing data
 ```
 
 ```{r Little MCAR test}
-library(BaylorEdPsych)
-LittleMCAR(df)
+#library(BaylorEdPsych)  was deprecated
+#LittleMCAR(df)
+
+library(narniar) #the replacement for BaylorEdPsych
+mcar_test(data)
 ```
 
 ```{r MissMech MCAR test}
@@ -559,6 +618,10 @@ mi_1 <- mi_1[order(- mi_1$mi),] #the minus sign makes it sort descending
 mi_1 # print the results
 ```
 
+# Making a poster in R
+
+https://github.com/brentthorne/posterdown/wiki 
+
 #Power
 
 ## A priori power analysis to determine sample size
@@ -568,7 +631,7 @@ mi_1 # print the results
 #f2 is the effect size, Cohen used .02, .15, and .35 as small, medium, large
 #.95 as power is lots, .80 is moderate and will be a little more lenient in sample size
 library(WebPower)
-wp.regression(n = NULL, p1 = 2, f2 = 0.15, alpha = 0.05, power = 0.8)
+wp.regression(n = NULL, p1 = 3, f2 = 0.15, alpha = 0.05, power = 0.8)
 wp.regression(n = NULL, p1 = 2, f2 = 0.15, alpha = 0.05, power = 0.95)
 wp.regression(n = NULL, p1 = 2, f2 = 0.35, alpha = 0.05, power = 0.8)
 ```
@@ -767,9 +830,23 @@ apa.2way.table(iv1 = Race, iv2 = NbhdInc, dv = NotStop, data = curbside, landsca
 apa.aov.table(TwoWay_curbside, filename = "Table_2_effects.doc", table.number = 2, type = "II")
 ```
 
+# Updating R
 
+I do it quarterly.
+
+First, R Studio: Help/Check for Updates
+Second, base_R.
+
+* In the Console (not R Markdown), library(installr)
+* Run the function updateR(), it will tell you if you are using the latest version
+* If yes, 
+  - close down R
+  - go to the website and download R
+  - last time I did it, R Studio automatically adjusted
+  - uninstall the prior versions of R
 
 # Write Table
+
 ```{r export df to csv file}
 write.table(MY_OBJECT, file="MyObject.csv", sep=",", col.names=TRUE, row.names=FALSE)
 ```

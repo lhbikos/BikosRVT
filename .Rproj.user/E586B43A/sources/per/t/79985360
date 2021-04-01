@@ -3,22 +3,23 @@
     "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/RVT/BikosRVT/Sustainable.Rmd",
     "project_path": "Sustainable.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "2823839998",
     "contents": "",
     "dirty": false,
     "created": 1612132922580.0,
     "source_on_save": false,
     "relative_order": 7,
     "properties": {
-        "cursorPosition": "105,164",
-        "scrollLine": "0"
+        "cursorPosition": "117,4",
+        "scrollLine": "113",
+        "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1612411895,
+    "lastKnownWriteTime": 1617318366,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1612411895491,
+    "last_content_update": 1617318366384,
     "read_only": false,
     "read_only_alternatives": []
 }

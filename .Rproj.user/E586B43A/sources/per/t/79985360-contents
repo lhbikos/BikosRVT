@@ -97,8 +97,24 @@ div.tan { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "tan">
 # Recent Presentations<br>
+
+</div>
+<br>
+<div class = "row">
+<div class = "col-md-6">
+
+* At WPA 2021(Virtual) we provided a symposium presentaiton (only 17 minutes) summarizing the qualitative data from the [MaskMaker study](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30261721-8835-442e-b5ba-acfd011c2eef). 
+
+* Yes!  Maskmaking is a calling!
 </div>
 <div class = "row">
+<div class = "col-md-6">
+
+![*Image of the title slide for a symposium presentation presenting the Maskmaking as Calling results*.](images/sustainable/WPAprezThumbnail.jpg){#id .class width=500}
+
+</div>
+
+<br>
 <br>
 
 <div class = "row">
