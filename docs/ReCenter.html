@@ -13,17 +13,26 @@
 
 <title>RECENTERING PSYCH STATS</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -37,33 +46,29 @@
 
 
 
+
 <style type="text/css">
-h1 {
-  font-size: 34px;
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-h1.title {
-  font-size: 38px;
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-h2 {
-  font-size: 30px;
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-h3 {
-  font-size: 24px;
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
 }
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
-
 
 
 
@@ -73,10 +78,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -93,40 +94,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 61px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -154,7 +128,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -166,7 +140,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -177,10 +151,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -192,7 +179,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -318,13 +304,13 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -376,7 +362,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -393,8 +379,8 @@ div.tocify {
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
-<div class="blue">
-<h1 id="teaching-and-evaluating-a-recentered-stats-class">Teaching and Evaluating a ReCentered Stats Class</h1>
+<div id="teaching-and-evaluating-a-recentered-stats-class" class="section level1 blue">
+<h1>Teaching and Evaluating a ReCentered Stats Class</h1>
 </div>
 <p><br></p>
 <p>I teach four “stats n’ methods” classes in the Clinical and Industrial/Organizational Psychology doctoral programs. These include:</p>
@@ -427,15 +413,17 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </ul></li>
 <li>Modeling and incentivizing participation in open science through pre-registration, data/code sharing, and learning to collaborate in cloud-environments (e.g., SharePoint, GitHub, OSF)</li>
 </ul>
-<p>At the end of Fall Quarter 2020, I added three additional items were added to the institution’s course evaluations for the students enrolled in the fall quarter stats courses. So that we could analyze the effects across time, all students who were enrolled in the doctoral programs were sent information about a proposed mixed methods evaluation of the decolonization efforts and given an opportunity to “opt out” of having their de-identified course evaluation data used in the evaluation. Analysis is presently underway. Consensual qualitative research - modified <span class="citation">(Spangler et al., <a href="#ref-spangler_consensual_2012" role="doc-biblioref">2012</a>)</span> is being used to analyze the short, narrative responses to the questions about decolonization. Heirarchical linear regression is being used to evaluate the incremental effects of the student’s department (clinical vs. I/O), the statistics package being taught (SPSS vs. R), and the intentional approaches to decolonizing the curriculum (precentered vs. recentered).</p>
+<p>At the end of Fall Quarter 2020, I added three additional items were added to the institution’s course evaluations for the students enrolled in the fall quarter stats courses. So that we could analyze the effects across time, all students who were enrolled in the doctoral programs were sent information about a proposed mixed methods evaluation of the decolonization efforts and given an opportunity to “opt out” of having their de-identified course evaluation data used in the evaluation. Analysis is presently underway. Consensual qualitative research - modified <span class="citation">(<a href="#ref-spangler_consensual_2012" role="doc-biblioref">Spangler et al., 2012</a>)</span> is being used to analyze the short, narrative responses to the questions about decolonization. Heirarchical linear regression is being used to evaluate the incremental effects of the student’s department (clinical vs. I/O), the statistics package being taught (SPSS vs. R), and the intentional approaches to decolonizing the curriculum (precentered vs. recentered).</p>
 <p><br><br></p>
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
-<div class="blue">
-<h1 id="recentering-psych-stats-the-textbook-oer">ReCentering Psych Stats: the textbook (OER)</h1>
+<div id="recentering-psych-stats-the-oer-textbook" class="section level1 blue">
+<h1>ReCentering Psych Stats: the OER (textbook)</h1>
 </div>
 <p><br></p>
+<div class="row">
+<div class="col-md-8">
 <p>The experience of locating freely available materials for teaching the statistics class made clear the need for resources that are recentered (as described above), but are also written for the <em>scientist-practitioner-advocate</em> in that they:</p>
 <ul>
 <li>use R</li>
@@ -444,7 +432,50 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 <li>are connected to published works so that the student can see how the statistic that is the focus of the lesson fits into the larger analytic picture</li>
 <li>demonstrate how to write up the results in APA style</li>
 </ul>
-<p>At this stage, I have begun writing the textbook and I have posted a <a href="https://lhbikos.github.io/ReCenterPsychStats/">sample chapter</a> and <a href="https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=150b68bf-c880-4348-8114-acb7000b227e">lecture</a>. To challenge my R skills, I am writing the textbook (and this website) in RMarkdown (with the bookdown package), serving it to the Github, and posting it through Github Pages.</p>
+<p>At this stage, I have created first drafts of two mini-volumes of lessons used in my multivariate statistics course in Spring 2021 (copyediting is still required). These include:</p>
+<ul>
+<li><a href="https://lhbikos.github.io/ReC_MultivariateModeling/">Multivariate Modeling</a></li>
+<li><a href="https://lhbikos.github.io/MultilevelModeling/">Multilevel Modeling</a></li>
+</ul>
+<p>The following mini-volumes are planned for release by January 1, 2022.</p>
+<ul>
+<li>Data Prep</li>
+<li>Analysis of Variance <a href="https://lhbikos.github.io/ReCenterPsychStats/">sample chapter</a></li>
+<li>Psychometrics</li>
+</ul>
+<p>To challenge my R skills, I am writing the textbook (and this website) in RMarkdown (with the bookdown package), serving it to the Github, and posting it through Github Pages.</p>
+<p>Collaboration is welcome! This could include:</p>
+<ul>
+<li>reviewing/editing chapters via the Github respository,</li>
+<li>recommending articles as research vignettes,</li>
+<li>collaborating on a lesson if you are co-author to a chapter that is included in the OER.</li>
+</ul>
+</div>
+<div class="col-md-4">
+<div class="figure">
+<img src="images/recenter/ReCBookCover.jpg" id="id" class="class" width="500" alt="" />
+<p class="caption"><em>Image of a Maskmaker’s sewing table with masks-in-progress</em>.</p>
+</div>
+</div>
+</div>
+<div id="recent-presentations" class="section level1">
+<h1>Recent Presentations<br></h1>
+</div>
+<br>
+<div class = "row">
+<div class="col-md-6">
+<ul>
+<li>At WPA 2021(Virtual) we provided a symposium presentaiton (only 16 minutes) summarizing the quantitative and qualitative evaluation of the first attempt at <a href="https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=857462cf-87c0-4c7d-a4d6-ad03010be71f">recentering ANOVA and psychometrics courses</a>.</li>
+</ul>
+</div>
+<div class = "row">
+<div class="col-md-6">
+<div class="figure">
+<img src="images/recenter/WPAprezi.jpg" id="id" class="class" width="500" alt="" />
+<p class="caption"><em>Image of the title slide for a symposium presentation presenting the ReCentering Psych Stats</em>.</p>
+</div>
+</div>
+<br> <br> s
 <div class="row">
 <div class="col-md-3">
 <div class="figure">
@@ -472,10 +503,11 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </div>
 </div>
 <div id="references" class="section level2 unnumbered">
-<h2>References</h2>
-<div id="refs" class="references">
-<div id="ref-spangler_consensual_2012">
-<p>Spangler, P., Liu, J., &amp; Hill, C. (2012). <em>Consensual Qualitative Research for Simple Qualitative Data An Introduction to CQR-M</em> (pp. 269–283).</p>
+<h2 class="unnumbered">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-spangler_consensual_2012" class="csl-entry">
+Spangler, P., Liu, J., &amp; Hill, C. (2012). <em>Consensual <span>Qualitative</span> <span>Research</span> for <span>Simple</span> <span>Qualitative</span> <span>Data</span> <span>An</span> <span>Introduction</span> to <span>CQR</span>-<span>M</span></em> (pp. 269–283).
+</div>
 </div>
 </div>
 </div>
@@ -509,7 +541,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

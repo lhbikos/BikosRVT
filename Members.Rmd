@@ -116,6 +116,8 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </div>
 
 <br>
+**LeAnne Zaire**, M.S. (she/her/hers; ~'23) is in her 3rd year in the Clinical Psychology PhD program at Seattle Pacific University.  She earned a bachelor of science in psychology from Tennessee State University in 2014 and served two years as a Peace Corps Volunteer in Kyrgyzstan. At SPU LeAnne has held numerous assistantships/fellowships including appointments at SPU’s Center for Career and Calling; the School of Psychology, Family, & Community’s Diversity Committee; the School of Theology’s Leitourgia project; and in Graduate Admissions.  LeAnne’s clinical experience has included career counseling at SPU’s Center for Career and Calling, completing neuropsychological assessments with Dr. Tedd Judd at his multicultural practicum site, and completing assessments the Autism Center at Providence Regional Medical Center.  LeAnne’s dissertation proposes to use “big data” from the National Center for Educational Statistics where she will examine the degree to which having an “own-raced teacher” impacts disciplinary outcomes for Black students. 
+<br>
 
 <div class = "row">
 <div class = "col-md-8">
@@ -126,6 +128,9 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 ![*Image of Jamie Layton in a in a meadow*.](images/members/jamie.jpg){#id .class width=500}
 </div>
 </div>
+
+<br>
+**Elena Cantorna**, M.S. (she/her/hers) is in her 4th year in the Clinical Psychology PhD program at Seattle Pacific University. Elena’s clinical interests center in forensic psychology, severe and persistent mental illness, and serving marginalized populations. She currently is completing forensic assessments at Western State Hospital and in private practice with WISe  Psychology (I.e. risk assessments, competency to stand trial evaluations, and mitigating factors). She also completes neuropsychological assessments with Dr. Tedd Judd at his multicultural practicum site, with a focus on advancing her Spanish clinical skills. Elena’s research interest includes program evaluations with community partners to advance programs created to serve marginalized populations to better their programs and resources. She currently is working on her dissertation using data in partnership with the King County Sexual Assault Resource Center looking at COVID-19's impact on resiliency and secondary victimization. 
 <br>
 
 <div class = "row">

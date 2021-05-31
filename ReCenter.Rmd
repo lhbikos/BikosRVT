@@ -63,9 +63,13 @@ At the end of Fall Quarter 2020, I added three additional items were added to th
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
-# ReCentering Psych Stats: the textbook (OER)
+
+# ReCentering Psych Stats: the OER (textbook)
 </div>
 <br>
+
+<div class = "row">
+<div class = "col-md-8">
 
 The experience of locating freely available materials for teaching the statistics class made clear the need for resources that are recentered (as described above), but are also written for the *scientist-practitioner-advocate* in that they:
 
@@ -75,8 +79,53 @@ The experience of locating freely available materials for teaching the statistic
 * are connected to published works so that the student can see how the statistic that is the focus of the lesson fits into the larger analytic picture
 * demonstrate how to write up the results in APA style
 
-At this stage, I have begun writing the textbook and I have posted a [sample chapter](https://lhbikos.github.io/ReCenterPsychStats/) and [lecture](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=150b68bf-c880-4348-8114-acb7000b227e). To challenge my R skills, I am writing the textbook (and this website) in RMarkdown (with the bookdown package), serving it to the Github, and posting it through Github Pages. 
+At this stage, I have created first drafts of two mini-volumes of lessons used in my multivariate statistics course in Spring 2021 (copyediting is still required).  These include:
 
+* [Multivariate Modeling](https://lhbikos.github.io/ReC_MultivariateModeling/)
+* [Multilevel Modeling](https://lhbikos.github.io/MultilevelModeling/) 
+
+The following mini-volumes are planned for release by January 1, 2022.
+
+* Data Prep
+* Analysis of Variance [sample chapter](https://lhbikos.github.io/ReCenterPsychStats/)
+* Psychometrics
+
+To challenge my R skills, I am writing the textbook (and this website) in RMarkdown (with the bookdown package), serving it to the Github, and posting it through Github Pages. 
+
+Collaboration is welcome! This could include:
+
+* reviewing/editing chapters via the Github respository,
+* recommending articles as research vignettes,
+* collaborating on a lesson if you are co-author to a chapter that is included in the OER.
+
+</div>
+
+<div class = "col-md-4">
+![*Image of a Maskmaker's sewing table with masks-in-progress*.](images/recenter/ReCBookCover.jpg){#id .class width=500}
+</div>
+</div>
+
+
+
+# Recent Presentations<br>
+
+</div>
+<br>
+<div class = "row">
+<div class = "col-md-6">
+
+* At WPA 2021(Virtual) we provided a symposium presentaiton (only 16 minutes) summarizing the quantitative and qualitative evaluation of the first attempt at [recentering ANOVA and psychometrics courses](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=857462cf-87c0-4c7d-a4d6-ad03010be71f). 
+
+</div>
+<div class = "row">
+<div class = "col-md-6">
+
+![*Image of the title slide for a symposium presentation presenting the ReCentering Psych Stats*.](images/recenter/WPAprezi.jpg){#id .class width=500}
+</div>
+
+<br>
+<br>
+s
 <div class = "row">
 <div class = "col-md-3">
 ![*A image of Dr. Bikos and Desta*](images/recenter/teachstats2.jpg){#id .class width=400}

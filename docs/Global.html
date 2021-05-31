@@ -13,17 +13,26 @@
 
 <title>GLOBAL PSYCHOLOGY</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -37,33 +46,29 @@
 
 
 
+
 <style type="text/css">
-h1 {
-  font-size: 34px;
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-h1.title {
-  font-size: 38px;
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-h2 {
-  font-size: 30px;
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-h3 {
-  font-size: 24px;
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
 }
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
-
 
 
 
@@ -73,10 +78,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -93,40 +94,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 61px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
-.section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -154,7 +128,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -166,7 +140,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -177,10 +151,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -192,7 +179,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -318,13 +304,13 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -376,7 +362,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -386,13 +372,13 @@ div.tocify {
 
 
 <p><br><br></p>
-<p>Beginning with the development and evaluation of a Job Search Club for International Students <span class="citation">(Bikos &amp; Furry, <a href="#ref-bikos_job_1999" role="doc-biblioref">1999</a>)</span>, created during her pre-doctoral internship, extending into expatriation/repatriation, and more recently on education abroad, Dr. Bikos has long held interests in global psychology. She is particularly interested in how people transition into culturally diverse contexts. These are examples of recently published projects – each of which have a well of unexplored data. <br></p>
+<p>Beginning with the development and evaluation of a Job Search Club for International Students <span class="citation">(<a href="#ref-bikos_job_1999" role="doc-biblioref">Bikos &amp; Furry, 1999</a>)</span>, created during her pre-doctoral internship, extending into expatriation/repatriation, and more recently on education abroad, Dr. Bikos has long held interests in global psychology. She is particularly interested in how people transition into culturally diverse contexts. These are examples of recently published projects – each of which have a well of unexplored data. <br></p>
 <p>While this page is labeled <em>global</em> psychology, the majority of our projects have overlap with <em>vocational</em> (e.g., “How does study abroad impact one’s sense of calling or strength of vocational identity?” and “Does one’s self-efficacy for sociocultural adaptation map onto a prominent career theory?”) and <em>sustainable</em> (e.g., “How does a culturally dislocating experience impact one’s worldview or global learning?” psychology). Methodologically, the projects below reflect Dr. Bikos’ love of longitudinal/repeated measures (“How do people change in response to transitions?”) and psychometrics. <br></p>
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
-<div class="blue">
-<h1 id="glo-abroad">GLO Abroad <br></h1>
+<div id="glo-abroad" class="section level1 blue">
+<h1>GLO Abroad <br></h1>
 </div>
 <p>GLOabroad. In June 2009 our RVT launched a mixed methods (i.e., qualitative and quantitative), longitudinal, investigation of the psycho-social-spiritual-educational outcomes of SPU students who are travelling internationally for traditional study abroad and faith-based global service learning. We assessed the students 3 months prior to departure, and then 2-weeks, 6-weeks, 3-months, 6-months, 9-months, and 12-months after their reentry. Presently, we have data from around 270 SPU international immersion learning students (and a control group of 70 students who did not travel internationally. <br></p>
 <div class="row">
@@ -410,8 +396,8 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
-<div class="blue">
-<h1 id="self-efficacy-for-sociocultural-adaptation-scale">Self-Efficacy for Sociocultural Adaptation Scale<br></h1>
+<div id="self-efficacy-for-sociocultural-adaptation-scale" class="section level1 blue">
+<h1>Self-Efficacy for Sociocultural Adaptation Scale<br></h1>
 </div>
 <div class="row">
 <div class="col-md-4">
@@ -428,8 +414,8 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
-<div class="blue">
-<h1 id="recent-pubs">Recent Pubs<br></h1>
+<div id="recent-pubs" class="section level1 blue">
+<h1>Recent Pubs<br></h1>
 </div>
 <ul>
 <li>Bikos, L. H., Forman, R., &amp; Patton, K. M. (2021). The Self-Efficacy for Sociocultural Adaptation Scale (SESCAS): Development and initial psychometric evaluation. <em>The Counseling Psychologist, 49</em>(1), 33-79. <a href="https://journals-sagepub-com.ezproxy.spu.edu/doi/10.1177/0011000020951861" class="uri">https://journals-sagepub-com.ezproxy.spu.edu/doi/10.1177/0011000020951861</a></li>
@@ -445,8 +431,8 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
-<div class="blue">
-<h1 id="recent-presentations">Recent Presentations <br></h1>
+<div id="recent-presentations" class="section level1 blue">
+<h1>Recent Presentations <br></h1>
 </div>
 <div class = "row">
 
@@ -468,10 +454,10 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 <br><br>
 </center>
 <div id="references" class="section level2 unnumbered">
-<h2>References</h2>
-<div id="refs" class="references">
-<div id="ref-bikos_job_1999">
-<p>Bikos, L. H., &amp; Furry, T. S. (1999). The job search club for international students: An evaluation. <em>The Career Development Quarterly</em>, <em>48</em>(1), 31–44. <a href="https://doi.org/10.1002/j.2161-0045.1999.tb00273.x">https://doi.org/10.1002/j.2161-0045.1999.tb00273.x</a></p>
+<h2 class="unnumbered">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bikos_job_1999" class="csl-entry">
+Bikos, L. H., &amp; Furry, T. S. (1999). The job search club for international students: <span>An</span> evaluation. <em>The Career Development Quarterly</em>, <em>48</em>(1), 31–44. <a href="https://doi.org/10.1002/j.2161-0045.1999.tb00273.x">https://doi.org/10.1002/j.2161-0045.1999.tb00273.x</a>
 </div>
 </div>
 </div>
@@ -505,7 +491,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
