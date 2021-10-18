@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>GLOBAL PSYCHOLOGY</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BikosRVT</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="Expectations.html">Expectations</a>
+</li>
+<li>
+  <a href="Vocational.html">Vocational</a>
+</li>
+<li>
+  <a href="Global.html">Global</a>
+</li>
+<li>
+  <a href="Sustainable.html">Sustainable</a>
+</li>
+<li>
+  <a href="ReCenter.html">ReCenterPsychStats</a>
+</li>
+<li>
+  <a href="Professional.html">Professional</a>
+</li>
+<li>
+  <a href="Members.html">Members</a>
+</li>
+<li>
+  <a href="Dissertations.html">Dissertations</a>
+</li>
+<li>
+  <a href="Fun.html">Fun</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">GLOBAL PSYCHOLOGY</h1>
+
+</div>
+
+
+<p><br><br></p>
+<p>Beginning with the development and evaluation of a Job Search Club for International Students <span class="citation">(Bikos &amp; Furry, <a href="#ref-bikos_job_1999" role="doc-biblioref">1999</a>)</span>, created during her pre-doctoral internship, extending into expatriation/repatriation, and more recently on education abroad, Dr. Bikos has long held interests in global psychology. She is particularly interested in how people transition into culturally diverse contexts. These are examples of recently published projects – each of which have a well of unexplored data. <br></p>
+<p>While this page is labeled <em>global</em> psychology, the majority of our projects have overlap with <em>vocational</em> (e.g., “How does study abroad impact one’s sense of calling or strength of vocational identity?” and “Does one’s self-efficacy for sociocultural adaptation map onto a prominent career theory?”) and <em>sustainable</em> (e.g., “How does a culturally dislocating experience impact one’s worldview or global learning?” psychology). Methodologically, the projects below reflect Dr. Bikos’ love of longitudinal/repeated measures (“How do people change in response to transitions?”) and psychometrics. <br></p>
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="blue">
+<h1 id="glo-abroad">GLO Abroad <br></h1>
+</div>
+<p>GLOabroad. In June 2009 our RVT launched a mixed methods (i.e., qualitative and quantitative), longitudinal, investigation of the psycho-social-spiritual-educational outcomes of SPU students who are travelling internationally for traditional study abroad and faith-based global service learning. We assessed the students 3 months prior to departure, and then 2-weeks, 6-weeks, 3-months, 6-months, 9-months, and 12-months after their reentry. Presently, we have data from around 270 SPU international immersion learning students (and a control group of 70 students who did not travel internationally. <br></p>
+<div class="row">
+<div class="col-md-8">
+<p><br><br> Liz Dykhouse’s (’16) doctoral dissertation found some of the first evidence of what some have termed “re-entry shock.” Given the mild-to-moderate trough and return to baseline within a year, we encourage education abroad advisors to offer training in coping skills during the program, to frame any re-entry struggles “re-entry friction,” and encourage individual exploration during this time.</p>
+</div>
+<div class="col-md-4">
+<div class="figure">
+<img src="images/global/ReEntryCurve.jpg" alt="Image of the re-entry curve from Dykhouse &amp; Bikos, 2019." id="id" class="class" width="500" />
+<p class="caption"><em>Image of the re-entry curve from Dykhouse &amp; Bikos, 2019</em>.</p>
+</div>
+</div>
+</div>
+<br><br>
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="blue">
+<h1 id="self-efficacy-for-sociocultural-adaptation-scale">Self-Efficacy for Sociocultural Adaptation Scale<br></h1>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="figure">
+<img src="images/global/SESCAS.png" alt="Image of the bifactor model (Bikos, Forman, &amp; Patton, 2002) that represents the structure of the SESCAS." id="id" class="class" width="500" />
+<p class="caption"><em>Image of the bifactor model (Bikos, Forman, &amp; Patton, 2002) that represents the structure of the SESCAS</em>.</p>
+</div>
+</div>
+<div class="col-md-8">
+<p><br><br> Rebekah Forman’s (’14) doctoral dissertation was the creation and evaluation of a scale that assesses self-efficacy for sociocultural adaptation. The flexible scale can examine self-efficacy along environmental and interpersonal contexts; affective, behavioral, or cognitive tasks; as a combination of those two factors (e.g., affective tasks in the interpersonal context).</p>
+</div>
+</div>
+<br><br>
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="blue">
+<h1 id="recent-pubs">Recent Pubs<br></h1>
+</div>
+<ul>
+<li>Bikos, L. H., Forman, R., &amp; Patton, K. M. (2021). The Self-Efficacy for Sociocultural Adaptation Scale (SESCAS): Development and initial psychometric evaluation. <em>The Counseling Psychologist, 49</em>(1), 33-79. <a href="https://journals-sagepub-com.ezproxy.spu.edu/doi/10.1177/0011000020951861" class="uri">https://journals-sagepub-com.ezproxy.spu.edu/doi/10.1177/0011000020951861</a></li>
+<li>Gibbs, R., Güneri, O. Y., Pankau, T., &amp; Bikos, L. H. (2020). Birds of a Feather Fare Less Well Together: Modeling Predictors of International Student Adaptation. <em>Sustainability, 12</em>(6), 2317. <a href="https://doi.org/10.3390/su12062317" class="uri">https://doi.org/10.3390/su12062317</a> Available at: <a href="https://www.mdpi.com/2071-1050/12/6/2317" class="uri">https://www.mdpi.com/2071-1050/12/6/2317</a></li>
+<li>Manning, S., Frieders, Z., &amp; Bikos, L.H. (2020). When does global learning begin: Recognizing the value of student experiences prior to study away. In N. Namaste, A. Sturgill, N. Sobania, and M. Vande Berg (Eds), <em>Minding the Gap: Integrating global learning at home and abroad.</em> Sterling, VA: Stylus.</li>
+<li>Dykhouse, E. C., &amp; Bikos, L. H. (2019). Re-entry friction: The curious effects of cultural dislocation on outcomes for global service learning returnees. <em>International Journal of Intercultural Relations, 72</em>(96-108). <a href="https://doi.org/10.1016/j.ijintrel.2019.07.004" class="uri">https://doi.org/10.1016/j.ijintrel.2019.07.004</a></li>
+<li>Bikos, L. H., Manning, S. B., &amp; Frieders, Z. J. (2019). Ready or not here I come: A qualitative investigation of students’ readiness perceptions for study abroad/away. International Perspectives in Psychology: Research, Practice, Consultation, 8(2), 78–91. <a href="https://doi-org.ezproxy.spu.edu/10.1037/ipp0000105" class="uri">https://doi-org.ezproxy.spu.edu/10.1037/ipp0000105</a></li>
+<li>Coyer, C., Gebregiorgis, D., Patton, K., Gheleva, D., &amp; Bikos, L. (2019). Cultivating global learning locally through community-based experiential education. <em>Journal of Experiential Education, 42</em>(2), 155-170. doi: 10.1177/1053825918824615 Retrieved from: <a href="https://journals.sagepub.com/doi/full/10.1177/1053825918824615" class="uri">https://journals.sagepub.com/doi/full/10.1177/1053825918824615</a></li>
+<li>Bikos, L. H., Yamamoto, M., Dykhouse, E., &amp; Sallee, O. (2016). Integrating off-campus international experience into on-campus coursework and research. In D. Gross, K. Abrams, &amp; C. Enns (Eds.), <em>Internationalizing the Undergraduate Psychology Curriculum: Practical lessons learned at home and abroad</em> (pp. 199-216). Washington D. C.: American Psychological Association.</li>
+<li>Bikos, L. H., Rodney, H., Gowen, M., Yamamoto, Y., &amp; Dykhouse, E. C. (2015). Effects of searching, faith, and time on the presence of calling in international service learning returnees. <em>Journal of Psychology and Christianity, 34</em>, 325-339.</li>
+</ul>
+<br><br>
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="blue">
+<h1 id="recent-presentations">Recent Presentations <br></h1>
+</div>
+<div class = "row">
+
+<center>
+<div class="figure">
+<img src="images/global/GLO_SCCR.jpg" alt="Image of the a poster evaluating the contributions of pre-departure global learning attitudes and imensions of sojourning self-efficacy on sociocultural adaptation during education abroad." id="id" class="class" width="800" />
+<p class="caption"><em>Image of the a poster evaluating the contributions of pre-departure global learning attitudes and imensions of sojourning self-efficacy on sociocultural adaptation during education abroad</em>.</p>
+</div>
+<p><br><br></p>
+<div class="figure">
+<img src="images/global/SASA_SCCT2017.png" alt="Image of the a poster that analyzed students’ perceived readiness for study abroad with social cognitive career theory." id="id" class="class" width="800" />
+<p class="caption"><em>Image of the a poster that analyzed students’ perceived readiness for study abroad with social cognitive career theory</em>.</p>
+</div>
+<p><br><br></p>
+<div class="figure">
+<img src="images/global/CourseGLO_AACU.jpg" alt="Image of the a poster reporting the results of a campus-wide curriculm mapping that assessed the degree to which courses addressed global learning outcomes." id="id" class="class" width="800" />
+<p class="caption"><em>Image of the a poster reporting the results of a campus-wide curriculm mapping that assessed the degree to which courses addressed global learning outcomes</em>.</p>
+</div>
+<br><br>
+</center>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-bikos_job_1999">
+<p>Bikos, L. H., &amp; Furry, T. S. (1999). The job search club for international students: An evaluation. <em>The Career Development Quarterly</em>, <em>48</em>(1), 31–44. <a href="https://doi.org/10.1002/j.2161-0045.1999.tb00273.x">https://doi.org/10.1002/j.2161-0045.1999.tb00273.x</a></p>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -118,7 +118,7 @@ To challenge my R skills, I am writing the textbook (and this website) in RMarkd
 
 Collaboration is welcome! This could include:
 
-* reviewing/editing chapters via the Github respository,
+* reviewing/editing chapters via the Github repository,
 * recommending articles as research vignettes,
 * collaborating on a lesson if you are co-author to a chapter that is included in the OER.
 

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>SUSTAINABLE PSYCHOLOGY</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BikosRVT</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="Expectations.html">Expectations</a>
+</li>
+<li>
+  <a href="Vocational.html">Vocational</a>
+</li>
+<li>
+  <a href="Global.html">Global</a>
+</li>
+<li>
+  <a href="Sustainable.html">Sustainable</a>
+</li>
+<li>
+  <a href="ReCenter.html">ReCenterPsychStats</a>
+</li>
+<li>
+  <a href="Professional.html">Professional</a>
+</li>
+<li>
+  <a href="Members.html">Members</a>
+</li>
+<li>
+  <a href="Dissertations.html">Dissertations</a>
+</li>
+<li>
+  <a href="Fun.html">Fun</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">SUSTAINABLE PSYCHOLOGY</h1>
+
+</div>
+
+
+<span style="color: #651D32;"><em>Click to listen to a screencasted <a href="https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8ebf1a26-498e-4012-a63c-acbf0051dbf2&amp;id=c188b3f4-f8fb-4af1-93c2-acbe01490516&amp;advance=true">discussion</a> about the <em>#MaskMadness</em> and <em>Maskmaker</em> studies.</em></span>
+</p>
+<p>The psychology of sustainability and sustainable development <span class="citation">(Di Fabio, <a href="#ref-di_fabio_psychology_2017" role="doc-biblioref">2017</a><a href="#ref-di_fabio_psychology_2017" role="doc-biblioref">a</a>, <a href="#ref-di_fabio_positive_2017" role="doc-biblioref">2017</a><a href="#ref-di_fabio_positive_2017" role="doc-biblioref">b</a>; Di Fabio &amp; Rosen, <a href="#ref-di_fabio_opening_2018" role="doc-biblioref">2018</a>; Di Fabio &amp; Tsuda, <a href="#ref-di_fabio_psychology_2018" role="doc-biblioref">2018</a>)</span> (a) focuses on well-being; (b) at levels of interaction including those of individuals, groups, organizations, and systems; and (c) is concerned with processes that are robust, consistent, and enduring. In contrast to traditional approaches that focus on avoidance (exploitation, depletion, irreversible alteration), the PSSD approach focuses on promotion (enrichment, growth, and flexible change). In this way, <em>sustainable</em> psychology may have (surprisingly) less to do with <em>what</em> is studied and more to do with the attitudes and approaches to studying it. In the context of the Bikos RVT, you will likely recognize overlaps with <em>vocational</em> (e.g., “Is it reasonable to frame maskmaking during the pandemic as calling?”) and <em>global</em> (e.g., “How does geopolitical context influence attitudes toware mask-wearing?”) psychology. <br></p>
+<p>As the U.S. was coming to terms with the seriousness of the pandemic, we launched a pair of studies that focus on facemasks. Both are 12-wave, longitudinal studies. <br></p>
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="blue">
+<h1 id="maskmadness">#MaskMadness</h1>
+</div>
+<p><br></p>
+<p>The unique focus of #MaskMadness is about wearing facemasks. Specifically, we are assessing reaction to seeing others’ in facemasks and the experiences of wearing the facemasks in public. Meta-data that is collected in Qualtrics will allow us to collect contextual information (e.g., voting trends, weekly rates of positive COVID tests and COVID-related deaths) to see how they interact with individual factors (e.g., job loss) to predict health and safety practices around COVID (e.g., social distancing, hand-washing, wearing facemasks) and well-being. <br></p>
+<p>We are still recruiting. For more information for yourself or a referral, please see the <a href="https://www.facebook.com/MaskMadness-Research-Project-102222801445834">MaskMadness Research Project</a> page on FaceBook.</p>
+<div class = "row">
+<div class="col-md-6">
+<div class="figure">
+<img src="images/sustainable/postermaskA.jpg" alt="Image of a “postermask” that uses a mini-version of a conference poster printed on cotton fabric." id="id" class="class" width="500" />
+<p class="caption"><em>Image of a “postermask” that uses a mini-version of a conference poster printed on cotton fabric</em>.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="figure">
+<img src="images/sustainable/postermaskB.jpg" alt="Image of the backside “postermask” that features the SPU logo." id="id" class="class" width="500" />
+<p class="caption"><em>Image of the backside “postermask” that features the SPU logo</em>.</p>
+</div>
+</div>
+</div>
+<p><br><br></p>
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="blue">
+<h1 id="maskmaker-maskmaker-make-me-a-mask">Maskmaker MaskMaker Make me a Mask</h1>
+</div>
+<p><br></p>
+<div class="row">
+<div class="col-md-8">
+<p>“Maskmaker” (yes, a play on “Matchmaker Matchmaker” from <em>Fiddler on the Roof</em>) augmented the #MaskMadness study with its focus on those sewing cloth facemasks. Maskmakers were asked to report their weekly productivity as well as reflect on why they engaged in maskmaking and how it was going.</p>
+<p>The I/O students in the summer qualitative research methods class analyzed the data and found that it fit well to the work-as-calling theory <span class="citation">(Duffy et al., <a href="#ref-duffy_work_2018" role="doc-biblioref">2018</a>)</span>. We are presently analyzing quantitative data to see if it will map similarly.</p>
+</div>
+<div class="col-md-4">
+<div class="figure">
+<img src="images/sustainable/sew_masks.JPEG" alt="Image of a Maskmaker’s sewing table with masks-in-progress." id="id" class="class" width="500" />
+<p class="caption"><em>Image of a Maskmaker’s sewing table with masks-in-progress</em>.</p>
+</div>
+</div>
+</div>
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="blue">
+<h1 id="editing-a-special-issue-of-the-psychology-of-sustainability-and-sustainable-development-section-of-the-journal-sustainability">Editing a Special Issue of the <em>Psychology of Sustainability and Sustainable Development</em> section of the journal, <em>Sustainability</em></h1>
+</div>
+<p><br></p>
+<p>The complex and interacting phenomena of the COVID-19 pandemic, political polarization, and the killings of Black individuals by police have paved the way for a racial reckoning, such that the American Psychological Association termed it a “racism pandemic” <span class="citation">(“’We Are Living in a Racism Pandemic,’ Says APA President,” <a href="#ref-noauthor_we_2020" role="doc-biblioref">2020</a>)</span>. While this constellation of factors highlighted racism in the US, anti-Blackness and systematic racism are worldwide phenomena. This is recognized within the United Nations’ Sustainable Development Goals <span class="citation">(SDG; <em>Transforming Our World</em>, <a href="#ref-noauthor_transforming_2015" role="doc-biblioref">2015</a>)</span> which include achieving inclusiveness, equality, safety, well-being, and empowerment across dimensions such as health, environment, education, and work. The harmful effects of racism to the mental, economic, social, and physical health of its targets are well documented <span class="citation">(for a summary see French et al., <a href="#ref-french_toward_2020" role="doc-biblioref">2020</a>)</span>.</p>
+<p>As proposed, the purpose of our Special Issue will be to contribute to the literature that seeks to eradicate anti-Blackness, systematic racism, hate, and oppression, and instead propagate Black liberation, equity, justice, and radical healing in ways that are neither fleeting nor transient. That is, we are seeking to grow a literature that explores and promotes anti-racism in ways that are sustainable. Along with Dr. Bikos, members of the RVT are co-editing the special issue titled, “Anti-racism and the psychology of sustainabiltiy and sustainable development.” The deadline for manuscript submissions for this special issue is December 31, 2021. The call for papers is <a href="https://www.mdpi.com/journal/sustainability/special_issues/Anti-racism_Psychology_Sustainable_Development">here</a>.</p>
+<br><br>
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="blue">
+<h1 id="recent-pubs">Recent Pubs<br></h1>
+</div>
+<p><br></p>
+<ul>
+<li>Gibbs, R., Güneri, O. Y., Pankau, T., &amp; Bikos, L. H. (2020). Birds of a Feather Fare Less Well Together: Modeling Predictors of International Student Adaptation. <em>Sustainability, 12</em>(6), 2317. <a href="https://doi.org/10.3390/su12062317" class="uri">https://doi.org/10.3390/su12062317</a> Available at: <a href="https://www.mdpi.com/2071-1050/12/6/2317" class="uri">https://www.mdpi.com/2071-1050/12/6/2317</a></li>
+<li>Coyer, C., Gebregiorgis, D., Patton, K., Gheleva, D., &amp; Bikos, L. (2019). Cultivating global learning locally through community-based experiential education. <em>Journal of Experiential Education, 42</em>(2), 155-170. doi: 10.1177/1053825918824615 Retrieved from: <a href="https://journals.sagepub.com/doi/full/10.1177/1053825918824615" class="uri">https://journals.sagepub.com/doi/full/10.1177/1053825918824615</a></li>
+</ul>
+<br><br>
+<style>
+div.tan { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class="tan">
+<h1 id="recent-presentations">Recent Presentations<br></h1>
+</div>
+<br>
+<div class = "row">
+<div class="col-md-6">
+<ul>
+<li><p>At WPA 2021(Virtual) we provided a symposium presentaiton (only 17 minutes) summarizing the qualitative data from the <a href="https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30261721-8835-442e-b5ba-acfd011c2eef">MaskMaker study</a>.</p></li>
+<li><p>Yes! Maskmaking is a calling!</p></li>
+</ul>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="figure">
+<img src="images/sustainable/WPAprezThumbnail.jpg" alt="Image of the title slide for a symposium presentation presenting the Maskmaking as Calling results." id="id" class="class" width="500" />
+<p class="caption"><em>Image of the title slide for a symposium presentation presenting the Maskmaking as Calling results</em>.</p>
+</div>
+</div>
+<p><br> <br></p>
+<div class="row">
+<div class="col-md-6">
+<div class="figure">
+<img src="images/sustainable/MaskMakerTitle.jpg" alt="Image of the title slide for the livestreaming presentation for the Maskmaker qualitative results." id="id" class="class" width="500" />
+<p class="caption"><em>Image of the title slide for the livestreaming presentation for the Maskmaker qualitative results</em>.</p>
+</div>
+</div>
+<div class="col-md-6">
+<ul>
+<li><p>Check out our livestreaming presentation from FaceBook where we presented preliminary, qualitative, results from the <a href="https://www.facebook.com/102222801445834/videos/290165572263914">Maskmaker Study</a>. <br></p></li>
+<li><p>Also available for viewing is our <a href="https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=af4e0a02-ab4e-445a-a5eb-ac4600764183">WPA2020 symposium presentation</a> from the Birds of a Feather <span class="citation">(Gibbs et al., <a href="#ref-gibbs_birds_2020" role="doc-biblioref">2020</a>)</span> study. This study was based on Renee Gibbs(’11) doctoral dissertation. <br></p></li>
+</ul>
+</div>
+</div>
+<p><br></p>
+<h1 id="recent-posters">Recent Posters</h1>
+</div>
+<div class = "row">
+<p><br></p>
+<center>
+<div class="figure">
+<img src="images/sustainable/MMadnessSPFC2021.jpg" alt="Image of the a poster evaluating mental health outcomes as a function of maskwearing and perceptions of facemask stigma." id="id" class="class" width="800" />
+<p class="caption"><em>Image of the a poster evaluating mental health outcomes as a function of maskwearing and perceptions of facemask stigma</em>.</p>
+</div>
+<p><br><br></p>
+<div class="figure">
+<img src="images/sustainable/MMakerSPFC2020.jpg" alt="Image of the a poster evaluating resilience during the pandemic as a function of changes to employment status and the prosocial behavior of maskmaking." id="id" class="class" width="800" />
+<p class="caption"><em>Image of the a poster evaluating resilience during the pandemic as a function of changes to employment status and the prosocial behavior of maskmaking</em>.</p>
+</div>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-di_fabio_psychology_2017">
+<p>Di Fabio, A. (2017a). The psychology of sustainability and sustainable development for well-being in organizations. <em>Frontiers in Psychology</em>, <em>8</em>. <a href="https://doi.org/10.3389/fpsyg.2017.01534">https://doi.org/10.3389/fpsyg.2017.01534</a></p>
+</div>
+<div id="ref-di_fabio_positive_2017">
+<p>Di Fabio, A. (2017b). Positive healthy organizations: Promoting well-being, meaningfulness, and sustainability in organizations. <em>Frontiers in Psychology</em>, <em>8</em>. <a href="https://doi.org/10.3389/fpsyg.2017.01938">https://doi.org/10.3389/fpsyg.2017.01938</a></p>
+</div>
+<div id="ref-di_fabio_opening_2018">
+<p>Di Fabio, A., &amp; Rosen, M. A. (2018). Opening the Black Box of Psychological Processes in the Science of Sustainable Development: A New Frontier. <em>European Journal of Sustainable Development Research</em>, <em>2</em>(4), 47. <a href="https://doi.org/10.20897/ejosdr/3933">https://doi.org/10.20897/ejosdr/3933</a></p>
+</div>
+<div id="ref-di_fabio_psychology_2018">
+<p>Di Fabio, A., &amp; Tsuda, A. (2018). The Psychology of Harmony and Harmonization: Advancing the Perspectives for the Psychology of Sustainability and Sustainable Development. <em>Sustainability</em>, <em>10</em>(12), 4726. <a href="https://doi.org/10.3390/su10124726">https://doi.org/10.3390/su10124726</a></p>
+</div>
+<div id="ref-duffy_work_2018">
+<p>Duffy, R. D., Dik, B. J., Douglass, R. P., England, J. W., &amp; Velez, B. L. (2018). Work as a calling: A theoretical model. <em>Journal of Counseling Psychology</em>, <em>65</em>(4), 423–439. <a href="https://doi.org/10.1037/cou0000276">https://doi.org/10.1037/cou0000276</a></p>
+</div>
+<div id="ref-french_toward_2020">
+<p>French, B. H., Lewis, J. A., Mosley, D. V., Adames, H. Y., Chavez-Dueñas, N. Y., Chen, G. A., &amp; Neville, H. A. (2020). Toward a psychological framework of radical healing in communities of color. <em>The Counseling Psychologist</em>, <em>48</em>(1), 14–46. <a href="https://doi.org/10.1177/0011000019843506">https://doi.org/10.1177/0011000019843506</a></p>
+</div>
+<div id="ref-gibbs_birds_2020">
+<p>Gibbs, R., Guneri, O. Y., Pankau, T., &amp; Bikos, L. H. (2020). Birds of a Feather Fare Less Well Together: Modeling Predictors of International Student Adaptation. <em>Sustainability</em>, <em>12</em>(6), 2317. <a href="https://doi.org/10.3390/su12062317">https://doi.org/10.3390/su12062317</a></p>
+</div>
+<div id="ref-noauthor_transforming_2015">
+<p><em>Transforming our world: The 2030 Agenda for Sustainable Development</em>. (2015). Department of Economic; Social Affairs, United Nations. <a href="https://sdgs.un.org/2030agenda">https://sdgs.un.org/2030agenda</a></p>
+</div>
+<div id="ref-noauthor_we_2020">
+<p>’We are living in a racism pandemic,’ says APA President. (2020). In <em>https://www.apa.org</em>. <a href="https://www.apa.org/news/press/releases/2020/05/racism-pandemic">https://www.apa.org/news/press/releases/2020/05/racism-pandemic</a></p>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
