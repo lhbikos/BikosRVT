@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1634590806281.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "83C82A3A",
+    "lastKnownWriteTime" : 1634591067,
+    "last_content_update" : 1634591067857,
+    "path" : "C:/Users/lhbikos/OneDrive - Seattle Pacific University/RVT/BikosRVT/ReCenter.Rmd",
+    "project_path" : "ReCenter.Rmd",
+    "properties" : {
+        "cursorPosition" : "114,64",
+        "scrollLine" : "86"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

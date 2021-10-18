@@ -13,7 +13,6 @@
 
 <title>PROFESSIONAL SERVICE</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
@@ -283,12 +282,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -372,12 +371,12 @@ div.tocify {
 <div class="row">
 <div class="col-md-4">
 <div class="figure">
-<img src="images/professional/WPAbooth.jpg" id="id" class="class" width="500" alt="" />
+<img src="images/professional/WPAbooth.jpg" alt="Image of the Clara, Desta, and Caitlin staffing the SPU booth at WPA." id="id" class="class" width="500" />
 <p class="caption"><em>Image of the Clara, Desta, and Caitlin staffing the SPU booth at WPA</em>.</p>
 </div>
 </div>
-<div id="western-psychological-association" class="section level2 col-md-8">
-<h2>Western Psychological Association</h2>
+<div class="col-md-8">
+<h2 id="western-psychological-association">Western Psychological Association</h2>
 <p>Annually, nearly 80% of the team attends the Western Psychological Association. The BikosRVT <em>works</em> the entire WPA with a number of responsibilities that typically include:</p>
 <ul>
 <li>staffing an SPU exhibit from the admissions office</li>
@@ -392,19 +391,19 @@ div.tocify {
 </div>
 </div>
 <p><br></p>
-</div>
 <div class="row">
-<div id="apas-division-52international-psychology" class="section level2 col-md-8">
-<h2>APA’s Division 52/International Psychology</h2>
+<div class="col-md-8">
+<h2 id="apas-division-52international-psychology">APA’s Division 52/International Psychology</h2>
 <p>Dr. Bikos has been involved with D52 for a number of years. Annually, we coordinate poster contests for WPA and APA. Additionally, we co-sponsor the CE for their webinar program.</p>
 <p><br></p>
 </div>
 <div class="col-md-4">
 <div class="figure">
-<img src="images/professional/WPAballoons.jpg" id="id" class="class" width="500" alt="" />
+<img src="images/professional/WPAballoons.jpg" alt="Image of the Dr. Bikos carrying globe ballons for D52 at WPA." id="id" class="class" width="500" />
 <p class="caption"><em>Image of the Dr. Bikos carrying globe ballons for D52 at WPA</em>.</p>
 </div>
 <p><br></p>
+</div>
 </div>
 </div>
 
@@ -446,6 +445,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
