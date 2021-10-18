@@ -79,7 +79,7 @@ The experience of locating freely available materials for teaching the statistic
 * are connected to published works so that the student can see how the statistic that is the focus of the lesson fits into the larger analytic picture
 * demonstrate how to write up the results in APA style
 
-At this stage, I have created first drafts of three mini-volumes of lessons used in my doctoral level statistics courses  (copyediting is still required).  These include:
+At this stage, I have created first drafts of four mini-volumes of lessons used in my doctoral level statistics courses  (copyediting is still required).  These include:
 
 * [Analysis of Variance](https://lhbikos.github.io/ReCenterPsychStats/) which includes chapters on
   - Orientation to R (two chapters)
