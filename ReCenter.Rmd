@@ -81,14 +81,14 @@ The experience of locating freely available materials for teaching the statistic
 
 At this stage, I have created first drafts of four mini-volumes of lessons used in my doctoral level statistics courses  (copyediting is still required).  These include:
 
-* [Analysis of Variance](https://lhbikos.github.io/ReCenterPsychStats/) which includes chapters on
+* [Analysis of Variance](https://lhbikos.github.io/ReCenterPsychStats/) with chapters on
   - Orientation to R (two chapters)
   - One-way ANOVA
   - Factorial (between-subjects) ANOVA
   - One-way repeated measures ANOVA
   - Mixed design ANOVA
   - Analysis of covariance (ANCOVA)
-* [Multivariate Modeling](https://lhbikos.github.io/ReC_MultivariateModeling/), which includes chapters on
+* [Multivariate Modeling](https://lhbikos.github.io/ReC_MultivariateModeling/)with chapters on
   - Cleaning and formatting data
   - Scoring data
   - Data diagnostics
@@ -97,12 +97,12 @@ At this stage, I have created first drafts of four mini-volumes of lessons used 
   - Complex (parallel, serial) mediation
   - Conditional process analysis (moderated mediation)
   - Simple moderation
-* [Multilevel Modeling](https://lhbikos.github.io/MultilevelModeling/), which includes chapters on
+* [Multilevel Modeling](https://lhbikos.github.io/MultilevelModeling/)with chapters on
   - Nested within groups (including using compositional effects as an approach to analysis)
   - Preparing data for nesting within persons (repeated measures)
   - Longitudinal modeling
   - Considerations for clocking time
-* [Psychometrics](https://lhbikos.github.io/ReC_Psychometrics/) is under construction (through November 2021), but presently includes chapters on
+* [Psychometrics](https://lhbikos.github.io/ReC_Psychometrics/) with chapters on
   - Questionnaire construction
   - Survey development in Qualtrics
   - Validity
@@ -113,6 +113,9 @@ At this stage, I have created first drafts of four mini-volumes of lessons used 
   - Principal axis Factoring
   - Confirmatory factor analysis:  First order models
   - Confirmatory factor analysis: Hierarchical and nested models
+* [extRas](https://lhbikos.github.io/extRas/) is emerging, presenting offering chapters on
+  - The process of building a book with R Markdown, bookdown, GitHub, and GitHub pages
+  - The "go-to" formatting techniques used to create ReCentering Psych Stats
 
 To challenge my R skills, I am writing the textbook (and this website) in RMarkdown (with the bookdown package), serving it to the Github, and posting it through Github Pages. 
 
@@ -128,8 +131,6 @@ Collaboration is welcome! This could include:
 ![*Image of a the ReCentering Psych Stats cover. The image includes four non-normal distributions representing gender diversity, race/ethnicity, sustainability, and peer-reviewed journals.*.](images/recenter/ReCBookCover.jpg){#id .class width=500}
 </div>
 </div>
-
-
 
 # Recent Presentations<br>
 
