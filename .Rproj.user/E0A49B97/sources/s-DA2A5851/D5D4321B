@@ -1,24 +1,24 @@
 {
-    "id": "FB0F52FD",
-    "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/RVT/BikosRVT/Dissertations.Rmd",
-    "project_path": "Dissertations.Rmd",
+    "id": "D5D4321B",
+    "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/RVT/BikosRVT/Members.Rmd",
+    "project_path": "Members.Rmd",
     "type": "r_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1638746296281.0,
+    "created": 1646071801430.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 2,
     "properties": {
         "source_window_id": "",
         "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1638743958,
+    "lastKnownWriteTime": 1638746016,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1638743958,
+    "last_content_update": 1638746016,
     "read_only": false,
     "read_only_alternatives": []
 }
