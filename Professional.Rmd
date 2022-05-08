@@ -20,9 +20,25 @@ The Bikos RVT is involved in service at varying levels of the institution and th
 
 <span style="color: #651D32;"><em>Click to listen to a screencasted [discussion](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8ebf1a26-498e-4012-a63c-acbf0051dbf2&id=cd90d758-fc48-4c20-b3e7-acc00136d912&advance=true) about our program evaluation collaboration with KCSARC.</em></span></p>
 
-For more than 15 years the BikosRVT has had a program evaluation partnership with [King County Sexual Assault Resources Center](https://www.kcsarc.org/). Our primary program has been to provide three waves of evaluation (intake, post, follow-up) for the [legal advocacy](https://www.kcsarc.org/legal) program. In consultation with the legal advocates, we developed a bilingual survey (Spanish, English) that assesses a host of variables about coping, well-being, secondary victimization, social support, and satisfaction with the program. This mutually beneficial arrangement provides regular program evaluation data to KCSARC as well as provides RVT members a rich opportunity for dissertations and other research.
+
+<div class = "row">
+<div class = "col-md-8">
+For more than 15 years the BikosRVT has had a program evaluation partnership with [King County Sexual Assault Resources Center](https://www.kcsarc.org/). Our primary program has been to provide three waves of evaluation (intake, post, follow-up) for the [legal advocacy](https://www.kcsarc.org/legal) program. In consultation with the legal advocates, we developed a bilingual survey (Spanish, English) that assesses a host of variables about coping, well-being, secondary victimization, social support, and satisfaction with the program. This mutually beneficial arrangement provides regular program evaluation data to KCSARC as well as provides RVT members a rich opportunity for dissertations and other research. At WPA 2022, members of the RVT contributed to a [symposium that described the KCSARC partnership](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f2d02764-174d-4b21-96df-ae7d011ca4b0). 
+
+</div>
+
+<div class = "col-md-4">
+![*Image of the title slide from the WPA presentation*.](images/professional/WPA_KCSARC.jpg){#id .class width=500}
+</div>
+
+<br>
+<br>
 
 A new KCSARC program is aimed at *preventing* sexual assault and is starting in the public schools. The curriculum addresses  Again, the BikosRVT is providing program evaluation support through Qualtrics-hosted surveys that assess changes in the students' understanding of boundaries and consent as well as their self-ratings of empathy and pro-social behaviors.
+
+</div>
+
+<br>
 
 ## Institutional Review Board
 

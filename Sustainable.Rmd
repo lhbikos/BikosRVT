@@ -17,7 +17,7 @@ link-citations: true
 
 The psychology of sustainability and sustainable development [@di_fabio_opening_2018; @di_fabio_positive_2017; @di_fabio_psychology_2017; @di_fabio_psychology_2018] (a) focuses on well-being; (b) at levels of interaction including those of individuals, groups, organizations, and systems; and (c) is concerned with processes that are robust, consistent, and enduring. In contrast to traditional approaches that focus on avoidance (exploitation, depletion, irreversible alteration), the PSSD approach focuses on promotion (enrichment, growth, and flexible change). In this way, *sustainable* psychology may have (surprisingly) less to do with *what* is studied and more to do with the attitudes and approaches to studying it.  In the context of the Bikos RVT, you will likely recognize overlaps with *vocational* (e.g., "Is it reasonable to frame maskmaking during the pandemic as calling?") and *global* (e.g., "How does geopolitical context influence attitudes toware mask-wearing?") psychology. <br>
 
-As the U.S. was coming to terms with the seriousness of the pandemic, we launched a pair of studies that focus on facemasks.  Both are 12-wave, longitudinal studies. <br>
+As the U.S. was coming to terms with the seriousness of the pandemic, we launched a pair of studies that focus on facemasks. Both were 12 to 24 wave, longitudinal studies. <br>
 
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
@@ -27,9 +27,7 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </div>
 <br>
 
-The unique focus of #MaskMadness is about wearing facemasks.  Specifically, we are assessing reaction to seeing others' in facemasks and the experiences of wearing the facemasks in public.  Meta-data that is collected in Qualtrics will allow us to collect contextual information (e.g., voting trends, weekly rates of positive COVID tests and COVID-related deaths) to see how they interact with individual factors (e.g., job loss) to predict health and safety practices around COVID (e.g., social distancing, hand-washing, wearing facemasks) and well-being. <br>
-
-We are still recruiting. For more information for yourself or a referral, please see the [MaskMadness Research Project](https://www.facebook.com/MaskMadness-Research-Project-102222801445834) page on FaceBook.
+The unique focus of #MaskMadness is about wearing facemasks.  Specifically, we are assessing reaction to seeing others' in facemasks and the experiences of wearing the facemasks in public.  Meta-data that is collected in Qualtrics has allowed us to collect contextual information (e.g., voting trends, weekly rates of positive COVID tests and COVID-related deaths) to see how they interact with individual factors (e.g., job loss) to predict health and safety practices around COVID (e.g., social distancing, hand-washing, wearing facemasks) and well-being. <br>
 
 <div class = "row">
 <div class = "col-md-6">
@@ -57,25 +55,13 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 
 "Maskmaker" (yes, a play on "Matchmaker Matchmaker" from *Fiddler on the Roof*) augmented the #MaskMadness study with its focus on those sewing cloth facemasks. Maskmakers were asked to report their weekly productivity as well as reflect on why they engaged in maskmaking and how it was going.
 
-The I/O students in the summer qualitative research methods class analyzed the data and found that it fit well to the work-as-calling theory [@duffy_work_2018]. We are presently analyzing quantitative data to see if it will map similarly.
+The I/O students in a summer qualitative research methods class analyzed the data and found that it fit well to the work-as-calling theory [@duffy_work_2018]. We are presently analyzing quantitative data to see if it will map similarly.
 </div>
 
 <div class = "col-md-4">
 ![*Image of a Maskmaker's sewing table with masks-in-progress*.](images/sustainable/sew_masks.JPEG){#id .class width=500}
 </div>
 </div>
-
-<style>
-div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
-</style>
-<div class = "blue">
-# Editing a Special Issue of the *Psychology of Sustainability and Sustainable Development* section of the journal, *Sustainability* 
-</div>
-<br>
-
-The complex and interacting phenomena of the COVID-19 pandemic, political polarization, and the killings of Black individuals by police have paved the way for a racial reckoning, such that the American Psychological Association termed it a “racism pandemic” [@noauthor_we_2020]. While this constellation of factors highlighted racism in the US, anti-Blackness and systematic racism are worldwide phenomena. This is recognized within the United Nations’ Sustainable Development Goals [SDG; @noauthor_transforming_2015] which include achieving inclusiveness, equality, safety, well-being, and empowerment across dimensions such as health, environment, education, and work. The harmful effects of racism to the mental, economic, social, and physical health of its targets are well documented [for a summary see @french_toward_2020]. 
-
-As proposed, the purpose of our Special Issue will be to contribute to the literature that seeks to eradicate anti-Blackness, systematic racism, hate, and oppression, and instead propagate Black liberation, equity, justice, and radical healing in ways that are neither fleeting nor transient. That is, we are seeking to grow a literature that explores and promotes anti-racism in ways that are sustainable. Along with Dr. Bikos, members of the RVT are co-editing the special issue titled, "Anti-racism and the psychology of sustainabiltiy and sustainable development."  The deadline for manuscript submissions for this special issue is December 31, 2021. The call for papers is [here](https://www.mdpi.com/journal/sustainability/special_issues/Anti-racism_Psychology_Sustainable_Development). 
 
 <br><br>
 <style>
@@ -90,7 +76,6 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 * Gibbs, R., Güneri, O. Y., Pankau, T., & Bikos, L. H. (2020). Birds of a Feather Fare Less Well Together: Modeling Predictors of International Student Adaptation. *Sustainability, 12*(6), 2317. https://doi.org/10.3390/su12062317 Available at:  https://www.mdpi.com/2071-1050/12/6/2317 
 * Coyer, C., Gebregiorgis, D., Patton, K., Gheleva, D., & Bikos, L. (2019). Cultivating global learning locally through community-based experiential education. *Journal of Experiential Education, 42*(2), 155-170. doi: 10.1177/1053825918824615 Retrieved from: https://journals.sagepub.com/doi/full/10.1177/1053825918824615
 
-
 <br><br>
 <style>
 div.tan { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
@@ -101,14 +86,16 @@ div.tan { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 
 </div>
 <br>
+
+At WPA 2022 we contributed three presentations to the symposium title, "The On-and-Off-Again of Facemasks in the COVID-19 Pandemic." The first two presentations focused on [maskmaking, analyzing it against the work-as-calling theory](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52f4bcf5-95fd-4d86-8698-ae7f011c22ff). The second presentation examined the [effects of facemask-wearing stigma and geopolitical context on well-being](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ca4b65a4-395e-43a1-ae56-ae7d0113a907) 
+
+![*Image of the title slide for a symposium presentation presenting the Maskmaking as Calling results*.](images/sustainable/MaskmakingWCT2022.jpg){#id .class width=500}
 <div class = "row">
 <div class = "col-md-6">
 
-* At WPA 2021(Virtual) we provided a symposium presentaiton (only 17 minutes) summarizing the qualitative data from the [MaskMaker study](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30261721-8835-442e-b5ba-acfd011c2eef). 
+At WPA 2021(Virtual) we provided a symposium presentation (only 17 minutes) summarizing the qualitative data from the [MaskMaker study](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30261721-8835-442e-b5ba-acfd011c2eef). It fit well to the work-as-calling theory.
 
-* Yes!  Maskmaking is a calling!
 </div>
-<div class = "row">
 <div class = "col-md-6">
 
 ![*Image of the title slide for a symposium presentation presenting the Maskmaking as Calling results*.](images/sustainable/WPAprezThumbnail.jpg){#id .class width=500}
@@ -117,23 +104,28 @@ div.tan { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 
 <br>
 <br>
-
 <div class = "row">
 <div class = "col-md-6">
+
 ![*Image of the title slide for the livestreaming presentation for the Maskmaker qualitative results*.](images/sustainable/MaskMakerTitle.jpg){#id .class width=500}
 </div>
 <div class = "col-md-6">
-* Check out our livestreaming presentation from FaceBook where we presented preliminary, qualitative, results from the [Maskmaker Study](https://www.facebook.com/102222801445834/videos/290165572263914).  <br>
-
-* Also available for viewing is our [WPA2020 symposium presentation](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=af4e0a02-ab4e-445a-a5eb-ac4600764183) from the Birds of a Feather [@gibbs_birds_2020] study. This study was based on Renee Gibbs('11) doctoral dissertation. <br>
+Check out our livestreaming presentation from FaceBook where we presented [qualitative, results from the Maskmaker Study](https://www.facebook.com/102222801445834/videos/290165572263914).  <br>
 
 </div>
 </div>
-<br>
 
-# Recent Posters
+Also available for viewing is our [WPA2020 symposium presentation](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=af4e0a02-ab4e-445a-a5eb-ac4600764183) from the Birds of a Feather [@gibbs_birds_2020] study. This study was based on Renee Gibbs('11) doctoral dissertation. <br>
+
+<br><br>
+<style>
+div.tan { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "tan">
+
+# Recent Posters<br>
+
 </div>
-<div class = "row">
 <br>
 
 <center>
@@ -142,6 +134,7 @@ div.tan { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 <br><br>
 
 ![*Image of the a poster evaluating resilience during the pandemic as a function of changes to employment status and the prosocial behavior of maskmaking*.](images/sustainable/MMakerSPFC2020.jpg){#id .class width=800}
+</center>
 
 ## References
 

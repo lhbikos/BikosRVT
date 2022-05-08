@@ -29,11 +29,11 @@ Education: BA, University of Missouri-Columbia, 1987; MA, University of Missouri
 <div class = "row">
 <div class = "col-md-8">
 <br>
-Dr. Lynette Bikos (she/her/hers, pronounced "bike-us") teaches statistics, research methods, and psychometrics courses in the Clinical and Industrial-Organizational Psychology doctoral programs at Seattle Pacific University. She is a licensed psychologist in Washington and Kansas and Board Certified in Counseling Psychology.  Her expertise falls at the intersections of vocational, global, and sustainable psychology. <br>
+Dr. Lynette Bikos (she/her/hers, pronounced "bike-us") teaches statistics, research methods, and psychometrics courses in the Clinical and Industrial-Organizational Psychology doctoral programs at Seattle Pacific University. She is a licensed psychologist in Washington and Kansas and Board Certified in Counseling Psychology.  Her scholarship falls at the intersections of vocational, global, and sustainable psychology. <br>
 
-At this particular time in SPU's history, Dr. Bikos has been engaged in advocacy regarding the policies and practices tha result in employment discrimination for members of the LGBTQIA+ community. She is PI or co-PI on two studies regarding the campus climate and the sustainability of protest. She has has also been involved in coordinating events designed to cultivate a community that characterized by affirmation and inclusiveness.
+At this particular time in SPU's history, Dr. Bikos has been engaged in advocacy regarding the policies and practices that result in employment discrimination for members of the LGBTQIA+ community. She is PI and co-PI on two studies regarding the campus climate and the sustainability of protest. She has has also been involved in coordinating events designed to cultivate a community that characterized by affirmation and inclusiveness.
 
-Dr. Bikos’ first love is career development.  At SPU Dr. Bikos engaged in both the science and practice of vocational psychology by providing clinical supervision for the Graduate Career Advisors at SPU’s Center for Center for Career and Calling and in their work as facilitators for *CALLED!  SPU’s Online Field Guide* (OFG; Canvas edition).  Dr. Bikos is the Principal Investigator of a random clinical trial evaluating differences between three versions of the OFG – particularly looking to see if the calling-infused version contributes to vocational outcomes over-and-above adjustment-to-college and traditional-career-planning versions. <br>
+Dr. Bikos’ first love is career development.  At SPU Dr. Bikos engaged in both the science and practice of vocational psychology by providing clinical supervision for the Graduate Career Advisors at SPU’s Center for Center for Career and Calling and in their work as facilitators for *CALLED! SPU’s Online Field Guide* (OFG; Canvas edition).  Dr. Bikos is the PI of a random clinical trial evaluating differences between three versions of the OFG – particularly looking to see if the calling-infused version contributes to vocational outcomes over-and-above adjustment-to-college and traditional-career-planning versions. <br>
 
 Dr. Bikos is particularly interested in understanding how individuals respond to change -- plotting longitudinal growth trajectories examining the simultaneous effects of individual and contextual factors.  Significant research projects have explored global learning outcomes in returnees from study abroad, first year adaptation of expatriate spouses, and career development in response to the OFG.  During the COVID-19 pandemic, she is investigating experiences of and attitudes toward making(sewing) and wearing cloth facemasks.  Whether in a videoconference or around a table, planning, implementing, analyzing, and discovering with her advisees is one of her greatest joys. <br>
 
@@ -42,12 +42,12 @@ Dr. Bikos is particularly interested in understanding how individuals respond to
 <div class = "col-md-4">
 ![*Image of Dr. Bikos professional profile photo*.](images/members/lhbikos_profile.jpg){#id .class width=500}
 </div>
-</div>
+
 
 <div class = "row">
 <div class = "col-md-8">
 <br>
-In the larger profession of psychology, Dr. Bikos presently serves on the editorial boards of the *Journal of Vocational Behavior*, *Career Development Quarterly*, and *International Perspectives in Psychology:  Research, Practice, Consultation*; and has previously served on the *Journal of Counseling Psychology* and *Journal of Career Development* editorial boards.  She is a Fellow in both the American Psychological Association (Division 17/Society of Counseling Psychology; Division 52/International Psychology) and the Western Psychological Association. She recently completed a 3-year term (2019-2021) as Vice President for Engagement in APA’s Division 52/International Psychology.
+In the larger profession of psychology, Dr. Bikos serves on the editorial boards of the *Journal of Vocational Behavior*, *Career Development Quarterly*, and *International Perspectives in Psychology:  Research, Practice, Consultation*; and has previously served on the *Journal of Counseling Psychology* and *Journal of Career Development* editorial boards.  She is a Fellow in both the American Psychological Association (Division 17/Society of Counseling Psychology; Division 52/International Psychology) and the Western Psychological Association. She recently completed a 3-year term (2019-2021) as Vice President for Engagement in APA’s Division 52/International Psychology.
 
 Dr. Bikos’ commitment to global begins at home. Her family has hosted more than a dozen exchange students (and teachers). She is an avid bicycle commuter, accruing over 2,000 miles annually in her trek to-and-from campus. She also spends a fair amount of time experimenting the kitchen – particularly with international recipes and ingredients.
 
@@ -69,6 +69,23 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 <div class = "blue">
 # Current RVT Members
 </div>
+<br>
+
+<div class = "row">
+<div class = "col-md-8">
+<br>
+
+**Kiana Clay** (she/her/hers; ~’26) was born and raised in Northern California. She moved to Southern California and attended California State University, Fullerton, where she received her Bachelor of Arts in Psychology with a minor in Adolescent Development in 2021. Throughout her time as an undergraduate, Kiana competed as a Division I athlete in the sport of track and field, served on the Academic Senate, and worked in a research lab. Her undergraduate research was focused on rehabilitation for community-dwelling survivors of traumatic brain injury, COVID-19 psychological distress, and sexual assault in the military. She is interested in trauma work, serving underserved populations, and working in multidisciplinary settings. Currently, Kiana is working on projects dedicated to recentering statistics, revising the Online Field Guide (OFG) to be more inclusive, and conducting longitudinal work with the King County Sexual Assault Resource Center. She works in the Center for Career and Calling at SPU as a Graduate Career Advisor, where she assists undergraduate students pursue their career goals. She also works at the newly launched non-profit, The Affirmative Collective, which provides justice-oriented application of evidence-based care, as the clinic coordinator. In her free time, Kiana enjoys hiking, boxing, reading, playing games, and exploring her new home in the Pacific Northwest. 
+
+</div>
+
+<div class = "col-md-4">
+
+![*Portrait of Kiana*.](images/members/kiana.jpg){#id .class width=500}
+
+</div>
+</div>
+
 <br>
 
 <div class = "row">
@@ -142,7 +159,7 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 
 <div class = "row">
 <div class = "col-md-4">
-![*Image of Jamie Layton ina meadow*.](images/members/jamie.jpg){#id .class width=500}
+![*Image of Jamie Layton in a meadow*.](images/members/jamie.jpg){#id .class width=500}
 </div>
 <div class = "col-md-8">
 **Jamie Layton** (she/her/hers; ~’24) was born and raised in Oregon. She moved down to California for college and received her Bachelors of Arts in Psychology with a  minor in Spanish at Biola University in 2017. Jamie joined our team in 2018 as a member of the clinical Psychology program. After her three years in California Jamie was hoping to stay in the PNW for grad school and was excited at all of the opportunities both recreationally and clinically that Seattle had to offer. Jamie is interested in pursing trauma work and highly values multicultural work and serving underserved populations. Her Mentored Research Project (MRP) examined the effect that religious engagement had on trauma experiences and PTSD symptoms in a sample of Somali refugees. For her dissertation she is hoping to use our new King County Sexual Assault Resource Center prevention project. While the exact details are still being worked out one possibility would be to psychometrically validate a consent scale for middle and high school students as we are unaware of any consent scale that currently exists for people this young. Clinically, Jamie has had a practicum placement at Olympia Fire Department where she went on calls and provided milieu therapy to Olympia firefighters, and also provided individual therapy to firefighters and family members throughout all of Thurston County. In addition to her research, classes, and clinical work, Jamie is a stats TA for the program. Outside of school Jamie enjoy cooking, baking, listening to podcasts and audio books, playing board games, and going to Mariners and hockey games. 
@@ -158,14 +175,6 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 
 <div class = "col-md-4">
 ![*Image of Elena in her rugby uniform*.](images/members/CantornaE.jpg){#id .class width=500}
-</div>
-</div>
 
-<div class = "row">
-<div class = "col-md-4">
-![*Image of the Kirby in an office setting*.](images/members/kirby.jpg){#id .class width=500}
-</div>
-<div class = "col-md-8">
-**Kirby White** (he/him, ~'21) is an IO Psychology PhD student. He grew up in the Seattle area and enjoyed several years of work before completing his undergraduate studies at SPU, majoring in business administration. Along his scenic career route, he’s served in the United States Marine Corps and worked as a church administrator, a Firefighter/EMT, a general management consultant, and an independent consultant creating automated analytics tools for major tech companies in the Puget Sound region. Kirby enjoys international travel, and would like to volunteer in West Africa again someday. His research interests involve employee engagement, data analytics, organizational effectiveness, and research design.
 
 

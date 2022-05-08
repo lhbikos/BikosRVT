@@ -18,17 +18,31 @@ link-citations: true
 ## A dissertation is an extraordinary amount of work.  Congratulations to each of these individuals who defended.
 
 Since 2015, all SPU dissertations from Clinical and Industrial/Organizational Psychology are available in [full-text](https://digitalcommons.spu.edu/etd/) in our institution's Digital Commons.
+</div>
+<br>
+
+<div class = "row">
+<div class = "col-md-8">
+![*Image of Kirby's virtual dissertation defense*.](images/dissertations/kirby.png){#id .class width=500}
+</div>
+
+<div class = "col-md-4">
+
+**Kirby White**, [*A Quantitative Comparison of Employee Engagement Theories*](https://www.kirbywhite.io/engagement-dissertation). Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jorge Lumbreras, PhD, and Liz Pavese, PhD. 
+
+Kirby is building a career at the intersection of innovation consulting and climate tech. You can him on [LinkedIn](https://www.linkedin.com/in/kirbywhite/)
 
 <br>
-<div class = "row">
-<div class = "col-md-4">
-**Lauren Hirsch**, [*The Role of Coping Self-Efficacy, Coping Strategies, and Resiliency Following Sexual Assault*](https://digitalcommons.spu.edu/cpy_etd/77/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jake Bentley, PhD, ABPP, and Jelena Vranjin, PhD. <br>
 
-Lauren is completing an APA-accredited pre-doctoral internship at the Missouri Health Sciences Psychology Consortium in Columbia, MO. She will be completing a postdoctoral felowship at Rush University's Cancer Center in Chicago, IL. You can find her on [LinkedIn](https://www.linkedin.com/in/lauren-a-hirsch-m-s-62097a19b/) </div>
+</div>
 
 <div class = "col-md-8">
-![*Image of Lauren's virtual dissertation defense*.](images/dissertations/dissHirsch.jpg){#id .class width=500}
+**Lauren Hirsch**, [*The Role of Coping Self-Efficacy, Coping Strategies, and Resiliency Following Sexual Assault*](https://digitalcommons.spu.edu/cpy_etd/77/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jake Bentley, PhD, ABPP, and Jelena Vranjin, PhD. <br>
 
+Lauren is completing an APA-accredited pre-doctoral internship at the Missouri Health Sciences Psychology Consortium in Columbia, MO. She will be completing a postdoctoral fellowship at Rush University's Cancer Center in Chicago, IL. You can find her on [LinkedIn](https://www.linkedin.com/in/lauren-a-hirsch-m-s-62097a19b/) </div>
+
+<div class = "col-md-4">
+![*Image of Lauren's virtual dissertation defense*.](images/dissertations/dissHirsch.jpg){#id .class width=500}
 
 </div>
 </div>
@@ -41,7 +55,7 @@ Lauren is completing an APA-accredited pre-doctoral internship at the Missouri H
 </div>
 
 <div class = "col-md-4">
-**Megan Fox**, [*How Social Support Affects Career Adaptability through the Academic Career*](https://digitalcommons.spu.edu/cpy_etd/70/), 2021. Dissertation committee members included Lynette Bikos, PhD (Chair), Joel Jin, PhD, and Jacqui Smith-Bates, EdD. <br>
+**Megan Fox, MS**, [*How Social Support Affects Career Adaptability through the Academic Career*](https://digitalcommons.spu.edu/cpy_etd/70/), 2021. Dissertation committee members included Lynette Bikos, PhD (Chair), Joel Jin, PhD, and Jacqui Smith-Bates, EdD. <br>
 
 Megan is completing an APA-accredited pre-doctoral internship at Eagle Valley Behavioral Health (an outreach of Vail Health), Eagle County, CO. You can find her on [LinkedIn](https://www.linkedin.com/in/megan-fox-9b6190149/)
 
@@ -81,7 +95,7 @@ Thomas Pankau is completing an APA-accredited pre-doctoral internship with Solut
 
 <div class = "row">
 <div class = "col-md-4">
-**Caitlin Coyer**, [*Psychometric Evaluation of the Calling and Vocation Questionnaire-Revised (CVQ-R) and Calling and Vocation Questionnaire-10 Item (CVQ-10)*](https://digitalcommons.spu.edu/cpy_etd/58/), 2020. Dissertation committee members included Lynette Bikos, PhD (Chair), Thane Erickson, PhD, and Jacqui Smith-Bates, EdD. <br>
+**Caitlin Coyer, PhD**, [*Psychometric Evaluation of the Calling and Vocation Questionnaire-Revised (CVQ-R) and Calling and Vocation Questionnaire-10 Item (CVQ-10)*](https://digitalcommons.spu.edu/cpy_etd/58/), 2020. Dissertation committee members included Lynette Bikos, PhD (Chair), Thane Erickson, PhD, and Jacqui Smith-Bates, EdD. <br>
 
 Dr. Coyer completed an APA-accredited pre-doctoral internship at the Missouri Health Sciences Psychology Consortium in Columbia, MO. She is completing a clinical health psychology postdoctoral fellowship position with the University of Florida. You can find her on [LinkedIn](https://www.linkedin.com/in/caitlin-coyer/)
 </div>
@@ -100,7 +114,7 @@ Dr. Coyer completed an APA-accredited pre-doctoral internship at the Missouri He
 </div>
 
 <div class = "col-md-4">
-**Desta Gebregiorgis**, [*Examining the Factors that Mediate the Relationship from Legal Advocacy Satisfaction to Resilience*](https://digitalcommons.spu.edu/cpy_etd/59/), 2020. Dissertation committee members included Lynette Bikos, PhD (Chair), Jacob Bentley, PhD, and Jelena Vranjin, PhD. <br>
+**Desta Gebregiorgis, PhD**, [*Examining the Factors that Mediate the Relationship from Legal Advocacy Satisfaction to Resilience*](https://digitalcommons.spu.edu/cpy_etd/59/), 2020. Dissertation committee members included Lynette Bikos, PhD (Chair), Jacob Bentley, PhD, and Jelena Vranjin, PhD. <br>
 
 Dr. Gebregiorgis completed completed an APA-accredited pre-doctoral internship at the VA Medical Center -- Minneapolis, MN. She is currently completing postdoctoral fellowship position in primary care mental health integration at the Seattle VA.
 
