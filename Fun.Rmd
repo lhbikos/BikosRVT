@@ -22,7 +22,29 @@ We strive to create a culture of collaboration -- and fun.  In a typical year we
 * have a commencement BBQ
 * when dissertation proposals and defenses are in person, RVT members bring treats so that the dissertant only has to worry about the defense (and then we hang out afterward to celebrate)
 
-Pictured below are snaps of some of the fun. 
+Pictured below are snaps of some of the fun. *As someone who is still relatively new to R, I haven't yet figured out how to rotate the images.*
+
+<style>
+div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+## APA 2022, Minneapolis
+</div>
+<br>
+
+<div class = "row">
+<div class = "col-md-6">
+![*Image of the Rachel and Thea winning a D52 International Poster Award*.](images/fun/APA2022poster.jpg)
+</div>
+<div class = "col-md-6">
+
+![*Image of Thea, Rachel, & Dr. Bikos exploring Minneapolis*.](images/fun/APAMinneapolis.jpg)
+
+</div>
+</div>
+
+<br>
+
 
 <style>
 div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
@@ -146,6 +168,22 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 ## Serious about Food
 </div>
 <br>
+
+<div class = "row">
+<div class = "col-md-4">
+![*Image of Dr. Bikos, Linda, and Thea at CharcuVT party*.](images/fun/Summer22_1.jpg){#id .class width=400}
+</div>
+
+<div class = "col-md-4">
+
+![*Image of the charcuterie board we built at the CharcuVT (play on "RVT") party*.](images/fun/CharcuVT.jpg){#id .class width=400}
+</div>
+
+<div class = "col-md-4">
+![*Image of Jay, Lexa, Kiana, & Jamie at the CharcuVT party*.](images/fun/Summer22_2.jpg){#id .class width=400}
+
+</div>
+</div>
 
 <div class = "row">
 <div class = "col-md-6">

@@ -23,26 +23,60 @@ Since 2015, all SPU dissertations from Clinical and Industrial/Organizational Ps
 
 <div class = "row">
 <div class = "col-md-8">
+![*Image of Elena's virtual dissertation defense*.](images/dissertations/dissElena.png){#id .class width=500}
+</div>
+
+<div class = "col-md-4">
+
+**Elena Cantorna, M. S.**, [*The Impact of COVID-19 on Secondary Victimization and Resiliency Appraisals Following Sexual Assault*](https://digitalcommons.spu.edu/cpy_etd/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Keyne Law, PhD, and Jelena Vranjin, PhD. 
+
+Elena is completing an APA-accredited pre-doctoral internship at the Center for Behavioral Medicine in Kansas City, MO. You can find her on [LinkedIn](https://www.linkedin.com/in/elenacantorna/) </div>
+
+<br>
+
+</div>
+<br>
+
+<div class = "col-md-4">
+**LeAnne Zaire, M.S.**, [*Behavioral and Disciplinary Outcomes of Black Students Who Have Black Teachers.*](https://digitalcommons.spu.edu/cpy_etd/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jake Bentley, PhD, ABPP, and Jordan Shannon, PhD. <br>
+
+LeAnne is completing an APA-accredited pre-doctoral internship at the El Paso Psychology Internship Consortium, El Paso, TX. You can find her on [LinkedIn](https://www.linkedin.com/in/leanne-zaire/) </div>
+
+<div class = "col-md-8">
+![*Image of LeAnne's dissertation defense*.](images/dissertations/dissLeAnne.jpg){#id .class width=500}
+
+</div>
+<br>
+<br>
+
+<div class = "row">
+<div class = "col-md-8">
+
 ![*Image of Kirby's virtual dissertation defense*.](images/dissertations/kirby.png){#id .class width=500}
 </div>
 
 <div class = "col-md-4">
 
-**Kirby White, M. A.**, [*A Quantitative Comparison of Employee Engagement Theories*](https://www.kirbywhite.io/engagement-dissertation). Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jorge Lumbreras, PhD, and Liz Pavese, PhD. 
+**Kirby White, M. A.**, [*A Quantitative Comparison of Employee Engagement Theories*](https://www.kirbywhite.io/engagement-dissertation), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jorge Lumbreras, PhD, and Liz Pavese, PhD. 
 
-Kirby is building a career at the intersection of innovation consulting and climate tech. You can him on [LinkedIn](https://www.linkedin.com/in/kirbywhite/)
+Dr. White is building a career at the intersection of innovation consulting and climate tech. You can him on [LinkedIn](https://www.linkedin.com/in/kirbywhite/)
 
-<br>
-
+</div>
 </div>
 
 
-<div class = "col-md-8">
+<br>
+<br>
+
+<div class = "row">
+<div class = "col-md-4">
 **Lauren Hirsch, M.S.**, [*The Role of Coping Self-Efficacy, Coping Strategies, and Resiliency Following Sexual Assault*](https://digitalcommons.spu.edu/cpy_etd/77/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jake Bentley, PhD, ABPP, and Jelena Vranjin, PhD. <br>
 
-Lauren is completing an APA-accredited pre-doctoral internship at the Missouri Health Sciences Psychology Consortium in Columbia, MO. She will be completing a postdoctoral fellowship at Rush University's Cancer Center in Chicago, IL. You can find her on [LinkedIn](https://www.linkedin.com/in/lauren-a-hirsch-m-s-62097a19b/) </div>
+Lauren's APA-accredited pre-doctoral internship was at the Missouri Health Sciences Psychology Consortium in Columbia, MO. Dr. Hirsch is completing a postdoctoral fellowship at Rush University's Cancer Center in Chicago, IL. You can find her on [LinkedIn](https://www.linkedin.com/in/lauren-a-hirsch-m-s-62097a19b/) 
 
-<div class = "col-md-4">
+</div>
+
+<div class = "col-md-8">
 ![*Image of Lauren's virtual dissertation defense*.](images/dissertations/dissHirsch.jpg){#id .class width=500}
 
 </div>
@@ -58,7 +92,7 @@ Lauren is completing an APA-accredited pre-doctoral internship at the Missouri H
 <div class = "col-md-4">
 **Megan Fox, M.S.**, [*How Social Support Affects Career Adaptability through the Academic Career*](https://digitalcommons.spu.edu/cpy_etd/70/), 2021. Dissertation committee members included Lynette Bikos, PhD (Chair), Joel Jin, PhD, and Jacqui Smith-Bates, EdD. <br>
 
-Megan is completing an APA-accredited pre-doctoral internship at Eagle Valley Behavioral Health (an outreach of Vail Health), Eagle County, CO. You can find her on [LinkedIn](https://www.linkedin.com/in/megan-fox-9b6190149/)
+Dr. Fox's APA-accredited pre-doctoral internship and post-doctoral appointments were at Eagle Valley Behavioral Health (an outreach of Vail Health), Eagle County, CO. You can find her on [LinkedIn](https://www.linkedin.com/in/megan-fox-9b6190149/)
 
 </div>
 </div>
@@ -69,7 +103,7 @@ Megan is completing an APA-accredited pre-doctoral internship at Eagle Valley Be
 <div class = "col-md-4">
 **Beth Larson, M.S.**, [*Attachment, Trait Mindfulness, and Expectations in Married Women: A Moderated Mediation Model*](https://digitalcommons.spu.edu/cpy_etd/69/), 2021. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Joel Jin, PhD, and John Thoburn, PhD, ABPP. <br>
 
-Beth is completing an APA-accredited pre-doctoral internship at the University of Kansas Medical Center, Kansas City, KS. She will be completing a General Clinical Psychology (with severe mental health illness emphasis track) Postdoctoral Fellowship at the Kansas City Veterans Administration Medical Center. </div>
+Dr. Larson's APA-accredited pre-doctoral internship was at the University of Kansas Medical Center, Kansas City, KS. She is completing a General Clinical Psychology (with severe mental health illness emphasis track) Postdoctoral Fellowship at the Kansas City Veterans Administration Medical Center. </div>
 
 <div class = "col-md-8">
 ![*Image of Beth's virtual dissertation defense*.](images/dissertations/BethLarson.png){#id .class width=500}
@@ -86,7 +120,7 @@ Beth is completing an APA-accredited pre-doctoral internship at the University o
 <div class = "col-md-4">
 **Thomas Pankau, M.S.**, [*Psychometrics of a Measure of Sexual Assault Coping SElf-Efficacy: A comparison across groups*](https://digitalcommons.spu.edu/cpy_etd/70/), 2021. Dissertation committee members included Lynette Bikos, PhD (Chair), Beverly Wilson, PhD, and Aaron Belz, PhD <br>
 
-Thomas Pankau is completing an APA-accredited pre-doctoral internship with Solutions Behavioral Healthcare Professionals in Moorhead, MN. He will be competing a postdoctoral fellowship at Kaiser Permanente in San Rafael, CA.
+Dr. Pankau's APA-accredited pre-doctoral internship was at Solutions Behavioral Healthcare Professionals in Moorhead, MN. He is completing a postdoctoral fellowship at Kaiser Permanente in San Rafael, CA.
 
 </div>
 </div>

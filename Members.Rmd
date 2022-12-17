@@ -49,7 +49,7 @@ Dr. Bikos is particularly interested in understanding how individuals respond to
 <br>
 In the larger profession of psychology, Dr. Bikos serves on the editorial boards of the *Journal of Vocational Behavior*, *Career Development Quarterly*, and *International Perspectives in Psychology:  Research, Practice, Consultation*; and has previously served on the *Journal of Counseling Psychology* and *Journal of Career Development* editorial boards.  She is a Fellow in both the American Psychological Association (Division 17/Society of Counseling Psychology; Division 52/International Psychology) and the Western Psychological Association. She recently completed a 3-year term (2019-2021) as Vice President for Engagement in APA’s Division 52/International Psychology.
 
-Dr. Bikos’ commitment to global begins at home. Her family has hosted more than a dozen exchange students (and teachers). She is an avid bicycle commuter, accruing over 2,000 miles annually in her trek to-and-from campus. She also spends a fair amount of time experimenting the kitchen – particularly with international recipes and ingredients.
+Dr. Bikos’ commitment to global begins at home. Her family has hosted more than a dozen exchange students (and teachers). She is an avid bicycle commuter, running errands, going to the Y, and riding to-and-from campus (excepting for ice and wind). She also spends a fair amount of time experimenting the kitchen – particularly with international recipes and ingredients.
 
 Additional profiles are provided on the [faculty profile](https://spu.edu/academics/school-of-psychology-family-community/faculty-and-staff/lynette-bikos-profile) at Seattle Pacific University and at [LinkedIn](https://www.linkedin.com/in/lhbikos/)
 <br>
@@ -68,6 +68,31 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 # Current RVT Members
+</div>
+<br>
+
+<div class = "row">
+<div class = "col-md-8">
+
+**Tara D. Shelby, M.A.** (she/they; ~'27) was born and raised in Bremerton, WA. She received her Bachelor's in Psychology from the University of Washington in Seattle, and received her Master of Arts in Psychology (focusing on Existential-Phenomenological Psychology, or EP for short) at Seattle University and is continuing her education at SPU as a current first-year in the Clinical Psychology doctoral program. Tara has multiple research interests and is currently researching on activism and burnout (Mentored Research Project or MRP), volunteering and analyzing with the King County Sexual Assault Resource Center, and collaborating with Dr. Jin’s lab on racial discrimination and activism among Asian Americans. Furthermore, they are also researching on a qualitative study on self-identity and eating disorders at her alma mater, Seattle University. Tara has clinical experience pertaining to crisis and suicide intervention as a phone worker at Crisis Connections and was an intern therapist in Kitsap County. Outside of school, Tara enjoys reading, drawing, hanging out with loved ones, eating sweets, and listening to music.  
+</div>
+
+<div class = "col-md-4">
+![*Image of Tara*.](images/members/tara.jpg){#id .class width=500}
+</div>
+
+
+<br>
+
+<div class = "row">
+<div class = "col-md-4">
+![*Image of the Elliot*.](images/members/elliot.png){#id .class width=500}
+</div>
+
+<div class = "col-md-8">
+**Elliot Wallace** (she/her/hers, ~'27) is originally from Seattle, Washington and stayed close to home to pursue her doctoral degree in clinical psychology at SPU. She earned a BS in psychology, a BA in Spanish, and a minor in diversity from the University of Washington in 2017. During her undergraduate career, Elliot worked in two research labs, The Center for the Study of Health and Risk Behaviors (CSHRB) and The Center for the Science of Social Connection (CSSC). Her work at CSHRB focused on alcohol misuse among young adults as well as consequences of marijuana and opioid use. At CSSC, Elliot found where her passion for social justice and science could be joined through her work on microaggressions. Her main research interests include racial identity development, implicit bias, and microaggressions. For her Mentored Research Project, Elliot will be collaborating with other graduate students to examine the effects of campus hostility and non-responsiveness on LGBTQIA+ student well-being. Currently, Elliot is a research coordinator at CSHRB working on an ecological momentary assessment study examining the effect of expectations on alcohol use among young adults. In her free time, she enjoys traveling, trying new restaurants, attending live music, and visiting museums. 
+
+</div>
 </div>
 <br>
 
@@ -146,35 +171,22 @@ div.blue { background-color:#D2B48C; border-radius: 5px; padding: 20px;}
 
 <br>
 
+
+</div>
+</div>
+
+
 <div class = "row">
 <div class = "col-md-8">
+**Jamie Layton, M.S.** (she/her/hers; ~’24) was born and raised in Oregon. She moved down to California for college and received her Bachelors of Arts in Psychology with a minor in Spanish at Biola University in 2017. Jamie joined our team in 2018 as a member of the clinical Psychology program. After her three years in California Jamie was hoping to stay in the PNW for grad school and was excited at all of the opportunities both recreationally and clinically that Seattle had to offer. Jamie is interested in pursuing trauma work and highly values multicultural work and serving underserved populations. Her Mentored Research Project (MRP) examined the effect that religious engagement had on trauma experiences and PTSD symptoms in a sample of Somali refugees. For her dissertation she is using data from our partnership with King County Sexual Assault Resource Center to evaluate the moderating effect of secondary victimization on the relationship between resilience and sexual assault coping self-efficacy. Clinically, Jamie has had practicum placements at the Olympia Fire Department, Washington Correction Center for Women, Seattle Children's Hospital's OCD Intensive Outpatient Program, Western State Hospital, Refugees Northwest, and The Affirmative Collective. Outside of school Jamie enjoys cooking, baking, listening to podcasts and audio books, playing board games, and going to Mariners and hockey games. 
 
-**LeAnne Zaire, M.S.** (she/her/hers; ~'23) is in her 3rd year in the Clinical Psychology PhD program at Seattle Pacific University.  She earned a bachelor of science in psychology from Tennessee State University in 2014 and served two years as a Peace Corps Volunteer in Kyrgyzstan. At SPU LeAnne has held numerous assistantships/fellowships including appointments at SPU’s Center for Career and Calling; the School of Psychology, Family, & Community’s Diversity Committee; the School of Theology’s Leitourgia project; and in Graduate Admissions.  LeAnne’s clinical experience has included career counseling at SPU’s Center for Career and Calling, completing neuropsychological assessments with Dr. Tedd Judd at his multicultural practicum site, and completing assessments the Autism Center at Providence Regional Medical Center.  LeAnne’s dissertation proposes to use “big data” from the National Center for Educational Statistics where she will examine the degree to which having an “own-raced teacher” impacts disciplinary outcomes for Black students. 
 </div>
-
-<div class = "col-md-4">
-![*Image of LeAnne*.](images/members/ZaireL.jpg){#id .class width=500}
-</div>
-</div>
-
-<div class = "row">
 <div class = "col-md-4">
 ![*Image of Jamie Layton in a meadow*.](images/members/jamie.jpg){#id .class width=500}
-</div>
-<div class = "col-md-8">
-**Jamie Layton, M.S.** (she/her/hers; ~’24) was born and raised in Oregon. She moved down to California for college and received her Bachelors of Arts in Psychology with a  minor in Spanish at Biola University in 2017. Jamie joined our team in 2018 as a member of the clinical Psychology program. After her three years in California Jamie was hoping to stay in the PNW for grad school and was excited at all of the opportunities both recreationally and clinically that Seattle had to offer. Jamie is interested in pursing trauma work and highly values multicultural work and serving underserved populations. Her Mentored Research Project (MRP) examined the effect that religious engagement had on trauma experiences and PTSD symptoms in a sample of Somali refugees. For her dissertation she is hoping to use our new King County Sexual Assault Resource Center prevention project. While the exact details are still being worked out one possibility would be to psychometrically validate a consent scale for middle and high school students as we are unaware of any consent scale that currently exists for people this young. Clinically, Jamie has had a practicum placement at Olympia Fire Department where she went on calls and provided milieu therapy to Olympia firefighters, and also provided individual therapy to firefighters and family members throughout all of Thurston County. In addition to her research, classes, and clinical work, Jamie is a stats TA for the program. Outside of school Jamie enjoy cooking, baking, listening to podcasts and audio books, playing board games, and going to Mariners and hockey games. 
+
 </div>
 </div>
 
-<br>
-
-<div class = "row">
-<div class = "col-md-8">
-**Elena Cantorna, M.S.**  (she/her/hers) is in her 4th year in the Clinical Psychology PhD program at Seattle Pacific University. Elena’s clinical interests center in forensic psychology, severe and persistent mental illness, and serving marginalized populations. She currently is completing forensic assessments at Western State Hospital and in private practice with WISe  Psychology (I.e. risk assessments, competency to stand trial evaluations, and mitigating factors). She also completes neuropsychological assessments with Dr. Tedd Judd at his multicultural practicum site, with a focus on advancing her Spanish clinical skills. Elena’s research interest includes program evaluations with community partners to advance programs created to serve marginalized populations to better their programs and resources. She currently is working on her dissertation using data in partnership with the King County Sexual Assault Resource Center looking at COVID-19's impact on resiliency and secondary victimization. 
-</div>
-
-<div class = "col-md-4">
-![*Image of Elena in her rugby uniform*.](images/members/CantornaE.jpg){#id .class width=500}
 
 
 
