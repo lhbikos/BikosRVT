@@ -1,23 +1,38 @@
 ---
 title: "DEFENDED!"
-output: 
-   html_document:
-     fig_width: 1
-     toc: true
-     toc_float: true
-     toc_depth: 3
-     theme: sandstone
-     highlight: tango
-
+output:
+  word_document:
+    toc: yes
+    toc_depth: '3'
+  html_document:
+    fig_width: 1
+    toc: yes
+    toc_float: yes
+    toc_depth: 3
+    theme: sandstone
+    highlight: tango
 bibliography: websiteRVT.bib
 citation-style: apa-single-spaced.csl
-link-citations: true
+link-citations: yes
 ---
 <br>
 
 ## A dissertation is an extraordinary amount of work.  Congratulations to each of these individuals who defended.
 
 Since 2015, all SPU dissertations from Clinical and Industrial/Organizational Psychology are available in [full-text](https://digitalcommons.spu.edu/etd/) in our institution's Digital Commons.
+
+</div>
+<br>
+
+<div class = "col-md-4">
+**Justin Cospito, M.A.**, [*When the Gay Can’t be Prayed Away: Exploring the LGBTQ Climate of a Non-Affirming Free Methodist University within the Council for Christian Colleges and Universities.*](https://digitalcommons.spu.edu/iop_etd/38/), 2022. Dissertation committee members included Joey Collins, PsyD (Chair), Lynette Bikos, PhD, ABPP (Co-Chair), and Matthew Bellinger, PhD. <br>
+
+Justin is completing his coursework in the Industrial-Organizational Psychology PhD program and pursuing a career in user experience research. You can find him on [LinkedIn](https://www.linkedin.com/in/cospitoj/) </div>
+
+<div class = "col-md-8">
+![*Image of Justin's dissertation defense*.](images/dissertations/dissJustin.png){#id .class width=500}
+
+
 </div>
 <br>
 
@@ -28,7 +43,7 @@ Since 2015, all SPU dissertations from Clinical and Industrial/Organizational Ps
 
 <div class = "col-md-4">
 
-**Elena Cantorna, M. S.**, [*The Impact of COVID-19 on Secondary Victimization and Resiliency Appraisals Following Sexual Assault*](https://digitalcommons.spu.edu/cpy_etd/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Keyne Law, PhD, and Jelena Vranjin, PhD. 
+**Elena Cantorna, M. S.**, [*The Impact of COVID-19 on Secondary Victimization and Resiliency Appraisals Following Sexual Assault*](https://digitalcommons.spu.edu/cpy_etd/84/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Keyne Law, PhD, and Jelena Vranjin, PhD. 
 
 Elena is completing an APA-accredited pre-doctoral internship at the Center for Behavioral Medicine in Kansas City, MO. You can find her on [LinkedIn](https://www.linkedin.com/in/elenacantorna/) </div>
 
@@ -38,7 +53,7 @@ Elena is completing an APA-accredited pre-doctoral internship at the Center for 
 <br>
 
 <div class = "col-md-4">
-**LeAnne Zaire, M.S.**, [*Behavioral and Disciplinary Outcomes of Black Students Who Have Black Teachers.*](https://digitalcommons.spu.edu/cpy_etd/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jake Bentley, PhD, ABPP, and Jordan Shannon, PhD. <br>
+**LeAnne Zaire, M.S.**, [*Behavioral and Disciplinary Outcomes of Black Students Who Have Black Teachers.*](https://digitalcommons.spu.edu/cpy_etd/82/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jake Bentley, PhD, ABPP, and Jordan Shannon, PhD. <br>
 
 LeAnne is completing an APA-accredited pre-doctoral internship at the El Paso Psychology Internship Consortium, El Paso, TX. You can find her on [LinkedIn](https://www.linkedin.com/in/leanne-zaire/) </div>
 
@@ -57,9 +72,9 @@ LeAnne is completing an APA-accredited pre-doctoral internship at the El Paso Ps
 
 <div class = "col-md-4">
 
-**Kirby White, M. A.**, [*A Quantitative Comparison of Employee Engagement Theories*](https://www.kirbywhite.io/engagement-dissertation), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jorge Lumbreras, PhD, and Liz Pavese, PhD. 
+**Kirby White, M. A.**, [*A Quantitative Comparison of Employee Engagement Theories*](https://digitalcommons.spu.edu/iop_etd/37/), 2022. Dissertation committee members included Lynette Bikos, PhD, ABPP (Chair), Jorge Lumbreras, PhD, and Liz Pavese, PhD. 
 
-Dr. White is building a career at the intersection of innovation consulting and climate tech. You can him on [LinkedIn](https://www.linkedin.com/in/kirbywhite/)
+Dr. White is building a career at the intersection of innovation consulting and climate tech. You can find him on [LinkedIn](https://www.linkedin.com/in/kirbywhite/)
 
 </div>
 </div>

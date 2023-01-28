@@ -14,6 +14,8 @@ citation-style: apa-single-spaced.csl
 link-citations: true
 ---
 
+<span style="color: #651D32;"><em>Click to listen to a screencasted [discussion](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d6233309-89cc-4cf2-9a15-af960024bc13) about how they have utilized research in advocacy and activism for LGBTQIA+ inclusion on the SPU campus.</em></span></p>
+
 Over the years, members of the Bikos RVT have been involved in activism for issues that are local (e.g., resources for graduate students on our campus) and national (e.g., the march for science, gun violence, racism). In recent years, one issue has been a critical focus.
 
 <style>
